@@ -385,7 +385,7 @@ width: 100%;
 
 .card .service-read{
   position: absolute;
-  top: 320px;
+  top: 220px;
   left: 100px;
   padding: 10px;
   border: none;
@@ -506,8 +506,9 @@ width: 100%;
   #blog-grid{
     display: grid;
     grid-template-columns: auto auto;
-     gap: 10px 10px;
-     margin-top: 10px;
+    justify-content: space-around;
+    gap: 10px 10px;
+    margin-top: 10px;
   }
   
   .mid{
@@ -516,6 +517,7 @@ width: 100%;
   
   .mid img{
      height: 25px;
+     margin-left: 40px;
     }
     
   
@@ -533,7 +535,7 @@ width: 100%;
   .card-body .blog-read{
     position: absolute;
     top : 170px;
-    left: 80px;
+    left: 90px;
     width: 200px;
     padding: 10px;
     border: none;
