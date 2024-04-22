@@ -9,9 +9,11 @@
   }
   
   .body {
-    /* background-image: url("./Images/background.jpeg"); */
+    background-image: url("/public/Images/body/background.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
+    height: 47rem;
+    overflow: hidden;
   }
   
   /* login */
@@ -48,7 +50,7 @@
   .btn_1 {
     width: 50%;
     margin-left: 11.5rem;
-    /* background-color: rgb(51, 205, 89); */
+    background-color: rgb(51, 205, 89);
     background-image: linear-gradient(
       to top left,
       rgb(45, 162, 115),
@@ -160,7 +162,7 @@
   .btn_2 {
     width: 50%;
     margin-left: 10rem;
-    /* background-color: rgb(51, 205, 89); */
+    background-color: rgb(51, 205, 89);
     background-image: linear-gradient(
       to top left,
       rgb(45, 162, 115),
@@ -226,7 +228,7 @@ width: 100%;
 
 /* home body */
 #containers {
-  /* background: url("./Images/body/main.jpeg"); */
+  background: url("/public/Images/body/main.jpeg");
   background-repeat: no-repeat;
   background-position: 0px;
   background-size: cover;
@@ -255,7 +257,7 @@ width: 100%;
 }
 
 #btn {
-  width: 300px;
+  width: 250px;
   margin-left: 5vw;
   margin-top: 3vh;
   padding: 5px;
