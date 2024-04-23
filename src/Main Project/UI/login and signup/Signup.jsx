@@ -60,7 +60,7 @@ export default function Signup() {
               </div>
             </div>
           </div>
-          <button type="submit" class="btn_2">Signup</button>
+          <Link to={"/"} class="btn btn_2">Signup</Link>
 
           <p id="redirect_1">Now you have account please <Link to="/">Sign In</Link></p>
         </form>

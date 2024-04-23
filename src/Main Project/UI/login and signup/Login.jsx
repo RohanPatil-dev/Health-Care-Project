@@ -32,7 +32,7 @@ export default function Login() {
           />
         </div>
 
-        <button type="submit" className="btn_1">Signin</button>
+        <Link to={'/index'} className="btn btn_1">Signin</Link>
 
         <p id="redirect">
           Don't have account ? <Link to="/signup" id="link1">Sign Up</Link>

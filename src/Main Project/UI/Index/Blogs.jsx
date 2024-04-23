@@ -2,6 +2,8 @@ import React from "react";
 
 import { Blog } from "../../Data/Blogs";
 
+import { Link } from "react-router-dom";
+
 export default function Blogs() {
   return (
     <>
@@ -59,9 +61,9 @@ export default function Blogs() {
                       <p class="card-text">
                       {data.description}
                       </p>
-                      <a href={data.link} class="btn blog-read">
+                      <Link to={data.link} class="btn blog-read">
                         Read More
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
