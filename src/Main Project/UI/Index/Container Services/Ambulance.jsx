@@ -8,7 +8,7 @@ export default function Ambulance() {
             {/* grid ambulance  */}
             <div id="ambulance">
                 <div id="ambulance-img"></div>
-                <div id="ambulance-text">
+                <div id="text">
                     <p class="text-danger">Ambulance Service & Its Importance in Society</p>
 
                     <p>Increase in medical ailments has led to the rise in hospitals and emergency medical services assisting patients who require emergency medical assistance at critical moments helping them to reach the hospital on time thus saving their life.</p>

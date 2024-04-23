@@ -1,6 +1,7 @@
 import React from "react"
 
 import "../../CSS/Login.css"
+import { Link } from "react-router-dom"
 
 export default function Nav() {
   return (
@@ -17,19 +18,16 @@ export default function Nav() {
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav">
           <li className="nav-item">
-            <a className="nav-link text-dark" href="../HTML/Home.html#containers">Home</a>
+            <Link className="nav-link text-dark" to="/index">Home</Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link text-dark" href="../HTML/Home.html#service">Services</a>
+            <Link className="nav-link text-dark" to="services">Services</Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link text-dark" href="../HTML/Home.html#about_title">About us</a>
+            <a className="nav-link text-dark" href="/about">About us</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link text-dark" href="../HTML/Home.html#blog">Blogs</a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link text-dark" href="../HTML/Home.html#footer">Contact Info</a>
+            <a className="nav-link text-dark" href="/blogs">Blogs</a>
           </li>
         </ul>
       </div>

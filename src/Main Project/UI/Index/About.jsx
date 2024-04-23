@@ -1,6 +1,7 @@
 import React from "react"
 
 import "../../CSS/Login.css"
+import { Link } from "react-router-dom"
 
 export default function About() {
   return (
@@ -33,7 +34,7 @@ export default function About() {
                 cost.We will do our best to provide the best services to our
                 patients with the quality of our services.
               </p>
-              <a href="../HTML/About US.html" class="btn read-about">Read More</a>
+              <Link to={"/contact_us"} class="btn read-about">Read More</Link>
             </div>
           </div>
         </div>

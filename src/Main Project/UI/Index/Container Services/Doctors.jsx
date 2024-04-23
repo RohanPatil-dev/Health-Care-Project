@@ -8,7 +8,7 @@ export default function Doctors() {
             {/* grid doctors  */}
             <div id="doctor">
                 <div id="doctor-img"></div>
-                <div id="doctor-text">
+                <div id="text">
                     <p class="text-danger">
                         Hospital doctors examine patients and diagnose and treat medical
                         conditions.
@@ -28,7 +28,7 @@ export default function Doctors() {
                         area of specialism, but can include the following :
                     </p>
 
-                    <ul id="doctor-points">
+                    <ul id="points">
                         <li>
                             meeting patients, examining them and discussing their symptoms and
                             medical histories.
@@ -61,7 +61,7 @@ export default function Doctors() {
                         following :
                     </p>
 
-                    <ul id="doctor-points">
+                    <ul id="points">
                         <li>anaesthetics.</li>
 
                         <li>emergency medicine.</li>

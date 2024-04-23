@@ -7,7 +7,7 @@ export default function Total_Care() {
      <>
         {/* grid caring */}
   <div id="care">
-    <div id="caring-text">
+    <div id="text">
 
 
       <p>As an adult child with aging parents, you want to ensure that all your parents' needs are taken care of as they
@@ -39,7 +39,7 @@ export default function Total_Care() {
         in-home CNA caregivers work to provide total patient services to clients in the comfort of their homes. </p>
 
       <h1 class="text-danger mt-5">Types of Care : </h1>
-      <ul id="caring-points">
+      <ul id="points">
         <li>Total care.</li>
 
         <li>Hospice care.</li>

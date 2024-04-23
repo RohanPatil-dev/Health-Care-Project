@@ -8,7 +8,7 @@ export default function Beds() {
         {/* grid beds  */}
     <div id="beds">
         <div id="bed-img"></div>
-        <div id="bed-text">
+        <div id="text">
             <p>When it comes to <span class="text-primary">hospital bed</span> servicing, it’s imperative that every piece of the bed is working perfectly
                 to deliver quality patient care.</p>
 

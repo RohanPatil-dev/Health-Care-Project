@@ -8,7 +8,7 @@ export default function Medicine() {
      <>
        {/* grid medicines  */}
     <div id="medicine">
-        <div id="medicine-text">
+        <div id="text">
             <p>Sometimes it seems like there are more medicines than there are diseases, and it can be hard to keep them
                 straight. Some can be bought over the counter at pharmacies or other stores. Others require a doctor's
                 prescription. Some are available only in hospitals.</p>
@@ -28,7 +28,7 @@ export default function Medicine() {
 
             <p class="mt-5">When we think about taking medicines, we often think of pills. But medicines can be
                 delivered in many ways, such as:</p>
-            <ul class="medicine-points">
+            <ul id="points">
                 <li>liquids that are swallowed.</li>
 
                 <li>drops that are put into ears or eyes.</li>
@@ -95,7 +95,7 @@ export default function Medicine() {
             <h2 class="text-danger mt-5">Taking Medicines :</h2>
             <p>No matter what type of medicine your doctor prescribes, it's always important to be safe and follow some
                 basic rules :</p>
-            <ul class="medicine-points">
+            <ul id="points">
                 <li>If you feel worse after taking a medicine, tell your doctor right away.</li>
 
                 <li>Double-check that you have the right medicine. If you get the same prescription filled more than

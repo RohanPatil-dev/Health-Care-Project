@@ -8,7 +8,7 @@ export default function Free_Checkup() {
         {/* grid free checkup */}
     <div id="free-checkup">
         <div id="checkup-img"></div>
-        <div id="checkup-text">
+        <div id="text">
             <p>Central Health Care are unique because they can help identify potential health problems or
                 risk factors for certain diseases early on. It allows for earlier treatment and management of these
                 conditions, improving outcomes and overall health.</p>

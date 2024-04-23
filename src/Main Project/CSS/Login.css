@@ -647,8 +647,7 @@
   margin-left: 450px;
 }
 
-
-#checkup-text{
+#text{
   margin-left: 200px;
   margin-top: 30px;
   font-size: 20px;
@@ -695,13 +694,6 @@
   margin-left: 200px;
 }
 
-#ambulance-text{
-  margin-left: 200px;
-  margin-top: 30px;
-  font-size: 20px;
-  width: 70%;
-}
-
 #ambulance-list li{
 margin-top: 20px;
 }
@@ -717,7 +709,7 @@ margin-top: 20px;
   margin-left: 200px;
 }
 
-#doctor-text{
+#text{
   margin-left: 200px;
   margin-top: 30px;
   font-size: 20px;
@@ -728,14 +720,14 @@ margin-top: 20px;
   margin-top: 15px;
 }
 
-#doctor-points li::marker{
+#points li::marker{
   color: rgb(131, 22, 203);
 }
 
 
 
 /* medicine */
-#medicine-text{
+#text{
   margin-left: 200px;
   margin-top: 30px;
   font-size: 20px;
@@ -755,7 +747,7 @@ margin-top: 20px;
   margin-top: 20px;
 }
 
-.medicine-points li::marker{
+#points li::marker{
   color: rgb(131, 22, 203);
 }
 
@@ -770,7 +762,7 @@ margin-top: 20px;
   margin-left: 200px;
 }
 
-#bed-text{
+#text{
   margin-left: 200px;
   margin-top: 30px;
   font-size: 20px;
@@ -779,7 +771,7 @@ margin-top: 20px;
 
 
 /* total care */
-#caring-text{
+#text{
   margin-left: 200px;
   margin-top: 30px;
   font-size: 20px;
@@ -797,9 +789,85 @@ margin-top: 20px;
 }
 
 
-#caring-points li::marker{
+#points li::marker{
   color: rgb(131, 22, 203);
 }
+
+
+/* About US file */
+
+#Abouts_header{
+  margin-top: 30px;
+}
+
+#abouts_tag{
+  font-weight: bold;
+  font-size: 60px;
+  text-shadow: 5px 10px 10px gray;
+}
+
+#abouts {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+
+#abouts > div {
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+  margin-top: 50px;
+  outline-width: 5px;
+  outline-color: rgba(103, 202, 96, 0.758);
+  outline-style: solid;
+  transition-property: transform;
+  transition-duration: 2s;
+  transition-timing-function: ease;
+  height: 350px;
+  box-shadow: 10px 10px 10px 10px gray;
+}
+
+#abouts > div:hover{
+  transform:scale(1.1)
+}
+
+.abouts-img {
+  height: 200px;
+  width: 100%;
+
+}
+
+.abouts-name {
+  font-size: 25px;
+  font-weight: 500;
+  font-style: italic;
+  color: red;
+  text-align: center;
+}
+
+
+.abouts-read{
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  outline-width: 5px;
+  outline-color: rgba(103, 202, 96, 0.758);
+  outline-style: solid;
+  background-image: linear-gradient(to top right,rgb(150, 49, 154),rgb(75, 184, 201));
+  color: white;
+  font-size: 20px;
+  margin-left: 110px;
+}
+
+.abouts-read:hover{
+  outline-color: yellow;
+  outline-style: solid;
+  background-image: linear-gradient(to right top,yellow,red);
+}
+
 
 
 /* blog read-more pages */
