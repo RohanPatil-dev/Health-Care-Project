@@ -11,7 +11,7 @@ export default function Blog_2() {
     <div id="blogify-img_2"></div>
     <div id="blogify-text">
       <p>Engaging in regular exercise, including weight lifting, is crucial for maintaining overall health and
-        well-being.<span style={{fontWeight: "bold"}}>It’s a common misconception that lifting weights can increase the
+        well-being.<span class="bold">It’s a common misconception that lifting weights can increase the
           risk of heart attack;</span> in fact, the opposite is often true.</p>
 
       <p>When done correctly, weight lifting can help enhance heart health by improving cardiovascular fitness, reducing
@@ -42,7 +42,7 @@ export default function Blog_2() {
       <p class="stages p-2"><span class="ml-3">Understanding the Link between Weightlifting and Heart Health</span></p>
 
       <p>The relationship between weightlifting and heart health is intricate and heavily influenced by individual
-        factors such as <span style={{fontWeight: "bold"}}>genetics, lifestyle, and overall physical condition.</span></p>
+        factors such as <span class="bold">genetics, lifestyle, and overall physical condition.</span></p>
 
       <p>Weightlifting, as a form of resistance training, can enhance heart health by strengthening the heart muscle,
         improving blood flow, and increasing the body’s ability to utilize oxygen. Moreover, it can aid in weight
@@ -63,7 +63,7 @@ export default function Blog_2() {
       </p>
 
       <p>Consistent weightlifting also helps in maintaining a healthy weight, reducing the likelihood of <span
-          style={{fontWeight: "bold"}}>obesity, a major contributor to heart disease.</span>
+          class="bold">obesity, a major contributor to heart disease.</span>
         Moreover, weightlifting can boost HDL or ‘good’ cholesterol levels, while reducing LDL or ‘bad’ cholesterol,
         leading to a healthier heart.</p>
 
@@ -80,19 +80,19 @@ export default function Blog_2() {
         goals and limitations. Here are a few tips to help you get started safely and effectively:</p>
 
       <ol type="1">
-        <li><span style={{fontWeight: "bold"}}>Consult a Professional:</span>Before embarking on any new fitness regimen,
+        <li><span class="bold">Consult a Professional:</span>Before embarking on any new fitness regimen,
           consult a cardiologist or a qualified fitness trainer. They can assess your fitness levels and provide
           tailored advice based on your health status and objectives.</li>
-        <li><span style={{fontWeight: "bold"}}>Start Small:</span> Initially, focus on lighter weights and higher
+        <li><span class="bold">Start Small:</span> Initially, focus on lighter weights and higher
           repetitions. Gradually increase the weight as your strength improves. Remember, the aim is to challenge your
           muscles, not strain them.</li>
-        <li><span style={{fontWeight: "bold"}}>Maintain Correct Form:</span> Proper technique is paramount to prevent
+        <li><span class="bold">Maintain Correct Form:</span> Proper technique is paramount to prevent
           injuries. A personal trainer can guide you on the correct lifting forms.</li>
-        <li><span style={{fontWeight: "bold"}}>Rest and Recuperate:</span>Allow your muscles time to heal and strengthen.
+        <li><span class="bold">Rest and Recuperate:</span>Allow your muscles time to heal and strengthen.
           Incorporate rest days in your routine to prevent overtraining.</li>
-        <li><span style={{fontWeight: "bold"}}>Stay Hydrated and Eat Well: </span>Proper nutrition and hydration are key
+        <li><span class="bold">Stay Hydrated and Eat Well: </span>Proper nutrition and hydration are key
           to fuel your workouts and recovery post-training.</li>
-        <li><span style={{fontWeight: "bold"}}>Consistency is Key:</span>Weightlifting isn’t a short-term fix but a
+        <li><span class="bold">Consistency is Key:</span>Weightlifting isn’t a short-term fix but a
           long-term commitment to your health. Remain consistent in your routine for the best results.</li>
       </ol>
 
@@ -103,12 +103,12 @@ export default function Blog_2() {
 
       <p> and cool-down exercises are crucial components of any fitness routine, particularly in weightlifting where the
         risk of muscle strains and injuries is higher.</p>
-      <p><span style={{fontWeight: "bold"}}>Warm-up</span> A good warm-up prepares your body for the intense exercise to
+      <p><span class="bold">Warm-up</span> A good warm-up prepares your body for the intense exercise to
         follow. It increases your heart rate, warms up your muscles, and enhances your joint flexibility, thereby
         reducing the risk of injuries. You can start with a light cardio activity such as a brisk walk or jogging
         followed by dynamic stretches that mirror the movements involved in weightlifting.</p>
 
-      <p><span style={{fontWeight: "bold"}}>Cool-down</span> The purpose of a cool-down is to gradually bring your heart
+      <p><span class="bold">Cool-down</span> The purpose of a cool-down is to gradually bring your heart
         rate and body temperature back to normal after a workout. This can help prevent dizziness and other discomforts.
         Light static stretching exercises should be included in your cool-down routine. They aid in reducing muscle
         tension and enhancing flexibility.</p>
