@@ -25,6 +25,8 @@ import Contact_US from "./Main Project/UI/Index/About US/About_US";
 import Services from "./Main Project/UI/Index/Services";
 import About from "./Main Project/UI/Index/About";
 import Blogs from "./Main Project/UI/Index/Blogs";
+import Contact from "./Main Project/UI/Index/Contact";
+import Footer from "./Main Project/UI/Index/Footer";
 
 
 
@@ -34,16 +36,20 @@ function App() {
   return (
     <>
     <BrowserRouter>
-      <Nav/>
        <Routes>
-        <Route path="/" element={<Login />} />
+        <Route path="/" element={<Login />}>
+        <Route exact path="/" element={<Login />} />
         <Route path="/signup" element={<Signup/>}/>
+        </Route>
+        </Routes>
 
+        <Nav/>
+        <Routes>
         <Route path="/index" element={<AddAll/>}/>
-        <Route path="/services" element={<Services/>}/>
-        <Route path="/about" element={<About />}/>
-        <Route path="/blogs" element={<Blogs />}/>
-        
+        <Route path="/services" element={<> <Services/> <Contact/> <Footer/> </>}/>
+        <Route path="/about" element={<><About />  <Contact/> <Footer/> </>}/>
+        <Route path="/blogs" element={<> <Blogs /> <Contact/> <Footer/> </>} />
+   
 
         <Route path="/freecheckup" element={<Free_Checkup />}/>
         <Route path="/ambulance" element={<Ambulance />}/>
@@ -57,7 +63,7 @@ function App() {
         <Route path="/blog_3" element={<Blog_3 />}/>
 
         <Route path="/contact_us" element={<Contact_US />}/>
-       </Routes>
+        </Routes>
     </BrowserRouter>
 
 
