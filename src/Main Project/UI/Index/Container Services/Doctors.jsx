@@ -9,14 +9,14 @@ export default function Doctors() {
             <div id="doctor">
                 <div id="doctor-img"></div>
                 <div id="text">
-                    <p class="text-danger">
+                    <p className="text-danger">
                         Hospital doctors examine patients and diagnose and treat medical
                         conditions.
                     </p>
 
                     <p>
                         Hospital doctor:{" "}
-                        <span class="text-primary">
+                        <span className="text-primary">
                             Responsibilities | Specialities | Salaries | Employers |
                             Qualifications and training | Key skills
                         </span>

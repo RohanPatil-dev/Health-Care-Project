@@ -9,7 +9,7 @@ export default function Ambulance() {
             <div id="ambulance">
                 <div id="ambulance-img"></div>
                 <div id="text">
-                    <p class="text-danger">Ambulance Service & Its Importance in Society</p>
+                    <p className="text-danger">Ambulance Service & Its Importance in Society</p>
 
                     <p>Increase in medical ailments has led to the rise in hospitals and emergency medical services assisting patients who require emergency medical assistance at critical moments helping them to reach the hospital on time thus saving their life.</p>
                     <p>Private and public ambulance transport services are operating in more numbers today as an inevitable service servicing the critical patients at crucial moments.</p>
@@ -17,7 +17,7 @@ export default function Ambulance() {
                     <p>Some of the non-emergency services include shifting patients from one hospital to another, transporting patients for any scanning or laboratory services to the relevant facilities or patients with any travelling disabilities in normal vehicles to hospitals for treatments.</p>
 
 
-                    <p class="text-danger">Let us discuss few points about paramedics who are the spine of ambulance transport services.</p>
+                    <p className="text-danger">Let us discuss few points about paramedics who are the spine of ambulance transport services.</p>
 
                     <ol type="1" id="ambulance-list">
                         <li>Paramedics or para medical professionals are first gods treating patients even before doctors (pre-hospital care) thus saving patients through immediate medical procedures ensuring the vitals stable before reaching hospitals for further treatments.</li>

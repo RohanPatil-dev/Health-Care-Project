@@ -13,7 +13,7 @@ export default function Login() {
         <h2 id="signin">Sign-In</h2>
 
         <div className="form-group form-div">
-          <label for="email" id="name">Email address</label>
+          <label htmlFor="email" id="name">Email address</label>
           <input
             type="email"
             className="form-control"
@@ -23,7 +23,7 @@ export default function Login() {
           />
         </div>
         <div className="form-group form-div">
-          <label for="password" id="name">Password</label>
+          <label htmlFor="password" id="name">Password</label>
           <input
             type="password"
             className="form-control"

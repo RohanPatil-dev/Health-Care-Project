@@ -9,8 +9,8 @@ export default function About_US() {
     <>
       {/* About US */}
       <div id="Abouts_header">
-        <h1 class="text-center" id="abouts_tag">
-          ABOUT <span class="text-info">US</span>
+        <h1 className="text-center" id="abouts_tag">
+          ABOUT <span className="text-info">US</span>
         </h1>
       </div>
 
@@ -19,15 +19,15 @@ export default function About_US() {
           return (
             <>
               <div key={data.id}>
-                <div class="card">
+                <div className="card">
                   <img
                     src={data.image}
                     alt="Card image cap"
-                    class="abouts-img"
+                    className="abouts-img"
                   />
-                  <div class="card-body">
-                    <h5 class="abouts-name">{data.doctor}</h5>
-                    <p class="card-text text-primary abouts-name">
+                  <div className="card-body">
+                    <h5 className="abouts-name">{data.doctor}</h5>
+                    <p className="card-text text-primary abouts-name">
                       {data.profession}
                     </p>
                   </div>

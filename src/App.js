@@ -2,10 +2,9 @@ import React from "react";
 import "./App.css";
 import "./style.css";
 
-
 import Login from "./Main Project/UI/login and signup/Login";
 
-import { BrowserRouter,Routes,Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Signup from "./Main Project/UI/login and signup/Signup";
 import AddAll from "./Main Project/UI/Index/AddAll";
 
@@ -27,20 +26,19 @@ import About from "./Main Project/UI/Index/About";
 import Blogs from "./Main Project/UI/Index/Blogs";
 import Contact from "./Main Project/UI/Index/Contact";
 import Footer from "./Main Project/UI/Index/Footer";
-
-
-
-
+import Admin_dashboard from "./Main Project/UI/Admin/Admin_dashboard";
+import Admin_module from "./Main Project/UI/Admin/Admin_module";
 
 function App() {
+
+
   return (
     <>
-    <BrowserRouter>
+      {/* its healthcare project */}
+      <BrowserRouter>
        <Routes>
-        <Route path="/" element={<Login />}>
-        <Route exact path="/" element={<Login />} />
+        <Route path="/" element={<Login />} />
         <Route path="/signup" element={<Signup/>}/>
-        </Route>
         </Routes>
 
         <Nav/>
@@ -64,11 +62,13 @@ function App() {
 
         <Route path="/contact_us" element={<Contact_US />}/>
         </Routes>
+
+        <Routes>
+            <Route path="/admin_dashboard" element={<Admin_dashboard/>}/>
+            <Route path="/admin_module" element={<Admin_module/>}/>
+        </Routes>
     </BrowserRouter>
 
-
-      
-      
     </>
   );
 }
