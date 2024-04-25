@@ -8,7 +8,6 @@ export default function Admin_dashboard() {
            <div id="grid-container">
             <Admin_Left/>
             <Admin_Right/>
-            
            </div>
     </>
   )

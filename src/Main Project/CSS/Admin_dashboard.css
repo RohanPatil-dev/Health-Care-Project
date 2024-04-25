@@ -1,198 +1,181 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  /* for dashboard */
-  
-  #grid-user {
-    background-image: linear-gradient(
-      to bottom right,
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* for dashboard */
+
+#grid-user {
+  background-image: linear-gradient(to bottom right,
       rgb(107, 51, 160),
-      rgb(155, 85, 85)
-    );
-    height: 100%;
-    width: 200px;
-  }
-  
-  #dashboard_name {
-    font-size: 20px;
-    color: white;
-    font-style: italic;
-    font-weight: 600;
-    text-shadow: 0px 0px 10px white;
-  }
-  
-  #User_name {
-    border: 2px solid black;
-    margin-top: 20px;
-    font-size: 25px;
-    color: rgb(175, 220, 25);
-    font-weight: 600;
-    text-shadow: 0px 0px 10px rgb(175, 220, 25);
-  }
-  
-  #name_type {
-    border: 2px solid black;
-    font-size: 20px;
-    color: rgb(27, 164, 232);
-    font-weight: 600;
-    text-shadow: 0px 0px 10px rgb(27, 164, 232);
-  }
-  
-  #user_image {
-    border-radius: 50%;
-    box-shadow: 0px 0px 10px 5px rgb(232, 237, 237);
-  }
-  
-  #grid-user > div {
-    padding: 10px;
-    text-align: center;
-  }
-  
-  #elements > div {
-    margin-top: 10px;
-    font-size: 15px;
-  }
-  
-  #elements > div a {
-    color: white;
-    text-decoration: none;
-  }
-  
-  #elements > div a:hover {
-    color: black;
-    font-weight: 600;
-    text-decoration: none;
-    margin-left: 1px;
-    text-shadow: 0px 0px 10px white;
-  }
-  
-  #grid-right {
-    width: 83rem;
-  }
-  
-  #user_pic {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  #grid-container {
-    display: grid;
-    grid-template-columns: auto auto;
-    justify-content: left;
-  }
-  
-  .form-inline {
-    margin-left: 74.5rem;
-  }
-  
-  #profile {
-    height: 70px;
-    width: 100%;
-  }
-  
-  #Dashboard_titles {
-    display: grid;
-    grid-template-columns: auto auto;
-    justify-content: left;
-    clear: both;
-    padding: 20px;
-    box-shadow: 0px 0px 20px 0px gray;
-  }
-  
-  #Dashboard_titles > div {
-    margin-left: 30px;
-    font-size: 20px;
-    height: 20px;
-  }
-  
-  #title_image {
-    grid-row-start: 1;
-    grid-row-end: 3;
-    margin-bottom: 0px 0px 10px 10px gray;
-  }
-  
-  #title_image img {
-    height: 70px;
-  }
-  
-  #dash_title {
-    margin-left: 23px;
-    font-size: 25px;
-    font-weight: 600;
-  }
-  
-  #dashboard_container {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    padding: 30px;
-    gap: 10px 10px;
-    text-align: center;
-    height: 500px;
-  }
-  
-  #dashboard_container > div {
-    background-color: rgb(122, 215, 160);
-    padding: 20px;
-    height: 180px;
-    width: 300px;
-    border-radius: 5px;
-  }
-  
-  #container-grid {
-    display: grid;
-    grid-template-columns: auto auto;
-  }
-  
-  .content {
-    height: 60px;
-  }
-  
-  .names {
-    font-size: 25px;
-    text-align: center;
-    font-weight: 600;
-    color: rgb(207, 35, 144);
-    margin-top: 10px;
-  }
-  
-  .totals {
-    font-size: 70px;
-    padding: 10px;
-    font-weight: bold;
-    color: rgb(196, 58, 37);
-    font-style: italic;
-  }
-  
-  #footer {
-    text-align: center;
-    background-image: linear-gradient(
-      to top right,
-      rgb(165, 59, 145),
-      rgb(51, 43, 167)
-    );
-    padding: 12px;
-    font-size: 20px;
-    font-weight: 600;
-    margin-top: 25px;
-  }
-
-
-  
-/* for patients */
-#grid-patient {
-  background-image: linear-gradient(
-    to bottom right,
-    rgb(107, 51, 160),
-    rgb(155, 85, 85)
-  );
+      rgb(155, 85, 85));
   height: 100%;
   width: 200px;
 }
 
-#grid-patient > div {
+#dashboard_name {
+  font-size: 20px;
+  color: white;
+  font-style: italic;
+  font-weight: 600;
+  text-shadow: 0px 0px 10px white;
+}
+
+#User_name {
+  border: 2px solid black;
+  margin-top: 20px;
+  font-size: 25px;
+  color: rgb(175, 220, 25);
+  font-weight: 600;
+  text-shadow: 0px 0px 10px rgb(175, 220, 25);
+}
+
+#name_type {
+  border: 2px solid black;
+  font-size: 20px;
+  color: rgb(27, 164, 232);
+  font-weight: 600;
+  text-shadow: 0px 0px 10px rgb(27, 164, 232);
+}
+
+#user_image {
+  border-radius: 50%;
+  box-shadow: 0px 0px 10px 5px rgb(232, 237, 237);
+}
+
+#grid-user>div {
+  padding: 10px;
+  text-align: center;
+}
+
+#elements>div {
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+#elements>div a {
+  color: white;
+  text-decoration: none;
+}
+
+#elements>div a:hover {
+  color: black;
+  font-weight: 600;
+  text-decoration: none;
+  margin-left: 1px;
+  text-shadow: 0px 0px 10px white;
+}
+
+#grid-right {
+  width: 83rem;
+}
+
+#user_pic {
+  display: flex;
+  flex-direction: column;
+}
+
+#grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: left;
+}
+
+.form-inline {
+  margin-left: 74.5rem;
+}
+
+#profile {
+  height: 70px;
+  width: 100%;
+}
+
+#Dashboard_titles {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: left;
+  clear: both;
+  padding: 20px;
+  box-shadow: 0px 0px 20px 0px gray;
+}
+
+#Dashboard_titles>div {
+  margin-left: 30px;
+  font-size: 20px;
+  height: 20px;
+}
+
+#title_image {
+  grid-row-start: 1;
+  grid-row-end: 3;
+  margin-bottom: 0px 0px 10px 10px gray;
+}
+
+#title_image img {
+  height: 70px;
+}
+
+#dash_title {
+  margin-left: 23px;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+#dashboard_container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  padding: 30px;
+  gap: 10px 10px;
+  text-align: center;
+  height: 500px;
+}
+
+#dashboard_container>div {
+  background-color: rgb(122, 215, 160);
+  padding: 20px;
+  height: 180px;
+  width: 300px;
+  border-radius: 5px;
+}
+
+#container-grid {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.content {
+  height: 60px;
+}
+
+.names {
+  font-size: 25px;
+  text-align: center;
+  font-weight: 600;
+  color: rgb(207, 35, 144);
+  margin-top: 10px;
+}
+
+.totals {
+  font-size: 70px;
+  padding: 10px;
+  font-weight: bold;
+  color: rgb(196, 58, 37);
+  font-style: italic;
+}
+
+
+
+/* for patients */
+#grid-patient {
+  background-image: linear-gradient(to bottom right,
+      rgb(107, 51, 160),
+      rgb(155, 85, 85));
+  height: 100%;
+  width: 200px;
+}
+
+#grid-patient>div {
   padding: 10px;
   text-align: center;
 }
@@ -206,7 +189,7 @@
   box-shadow: 0px 0px 20px 0px gray;
 }
 
-#patient_titles > div {
+#patient_titles>div {
   margin-left: 30px;
   font-size: 20px;
   height: 20px;
@@ -233,18 +216,6 @@
   overflow: auto;
 }
 
-#footer-patient {
-  text-align: center;
-  background-image: linear-gradient(
-    to top right,
-    rgb(165, 59, 145),
-    rgb(51, 43, 167)
-  );
-  padding: 12px;
-  font-size: 20px;
-  font-weight: 600;
-
-}
 
 .status {
   width: 100px;
@@ -325,14 +296,98 @@
   background-color: red;
 }
 
-#footer-appointment {
-  text-align: center;
-  background-image: linear-gradient(
-    to top right,
-    rgb(165, 59, 145),
-    rgb(51, 43, 167)
-  );
-  padding: 12px;
+
+/* appointment doctor selection */
+
+#add_appointment {
+  background-color: rgba(153, 153, 153, 0.425);
+  margin-top: 50px;
+  margin-bottom: 40px;
+  width: 90%;
+  margin-left: 60px;
+  outline-width: 20px;
+  outline-color: rgb(209, 49, 124);
+  outline-style: double;
+  padding: 30px;
+  border-radius: 10%;
+}
+
+#directInfo_added {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 20px 20px;
+}
+
+#directInfo_added div {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+#directInfo_added div img {
+  margin-left: 40%;
+}
+
+#directInfo_added h2 {
+  margin-left: 6rem;
+}
+
+#directInfo_added p {
+  margin-top: 30px;
+  margin-left: 4rem;
+  width: 500px;
   font-size: 20px;
   font-weight: 600;
+}
+
+#form-grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 30px;
+  justify-content: space-evenly;
+}
+
+.select {
+  width: 12.6rem;
+  border: 1px solid gray;
+  margin-left: 5rem;
+}
+
+.select input[type="text"] {
+  position: absolute;
+  padding: 7px;
+  cursor: pointer;
+}
+
+.select input[type="text"]::placeholder {
+  color: black;
+  font-size: 18px;
+}
+
+
+#datetime-local {
+  padding: 7px;
+  margin-right: 9rem;
+}
+
+.custom-select:focus,
+#datetime-local:focus {
+  outline: none;
+  border: none;
+  box-shadow: 0px 0px 10px 5px aqua;
+}
+
+#submit {
+  width: 70%;
+  border-radius: 20%;
+  border: none;
+  margin-left: 15rem;
+  margin-top: 3rem;
+  font-size: 20px;
+  color: white;
+  font-style: italic;
+  font-weight: 600;
+}
+
+#submit:hover {
+  box-shadow: 0px 0px 10px 5px aqua;
 }

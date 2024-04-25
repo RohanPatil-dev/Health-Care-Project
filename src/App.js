@@ -28,6 +28,7 @@ import Contact from "./Main Project/UI/Index/Contact";
 import Footer from "./Main Project/UI/Index/Footer";
 import Admin_dashboard from "./Main Project/UI/Admin/Admin_dashboard";
 import Admin_module from "./Main Project/UI/Admin/Admin_module";
+import Appointment_selection from "./Main Project/UI/Admin/Appointment_selection";
 
 function App() {
 
@@ -66,6 +67,7 @@ function App() {
         <Routes>
             <Route path="/admin_dashboard" element={<Admin_dashboard/>}/>
             <Route path="/admin_module" element={<Admin_module/>}/>
+            <Route path="/admin_selection" element={<Appointment_selection/>}/>
         </Routes>
     </BrowserRouter>
 

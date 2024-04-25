@@ -2,6 +2,9 @@ import React from "react"
 import Admin_Nav from "./Admin Reusable components/Admin_Nav"
 import Admin_TitleBar from "./Admin Reusable components/Admin_TitleBar"
 import Footer from "../Index/Footer"
+import { modules } from "../../Data/Admin_module"
+
+
 
 export default function Admin_module_right() {
     return (
@@ -12,10 +15,11 @@ export default function Admin_module_right() {
                 <Admin_Nav />
                 <Admin_TitleBar img={"./Images/Navbar/green-clipboard.png"} title={"Appointments"} subName={"Appointment List"} />
 
-                <div id="tables" class="text-center">
-                    <table class="table bg-dark text-light">
+
+                <div id="tables" className="text-center">
+                    <table className="table bg-dark text-light">
                         <thead>
-                            <tr class="appointment_id">
+                            <tr className="appointment_id">
                                 <th scope="col">ID</th>
                                 <th scope="col">Profile</th>
                                 <th scope="col">Name</th>
@@ -25,238 +29,38 @@ export default function Admin_module_right() {
                             </tr>
                         </thead>
                         <tbody>
-                            <tr>
-                                <th scope="row" class="appointment_id">1</th>
-                                <td>
-                                    <img src="../../Images/doctor1.png" alt="" class="td-image" />
-                                </td>
-                                <td class="td-font">Rohan Patil</td>
-                                <td class="td-font">rohanpatil5122001@gmail.com</td>
-                                <td class="td-font">05-12-2001</td>
-                                <td>
-                                    <button class="file">
-                                        <img src="../../Images/Admin/file.png" alt="" />
-                                    </button>
-                                </td>
-                            </tr>
-                            <tr>
-                                <th scope="row" class="appointment_id">1</th>
-                                <td>
-                                    <img src="../../Images/doctor1.png" alt="" class="td-image" />
-                                </td>
-                                <td class="td-font">Rohan Patil</td>
-                                <td class="td-font">rohanpatil5122001@gmail.com</td>
-                                <td class="td-font">05-12-2001</td>
-                                <td>
-                                    <button class="file">
-                                        <img src="../../Images/Admin/file.png" alt="" />
-                                    </button>
-                                </td>
-                            </tr>
-                            <tr>
-                                <th scope="row" class="appointment_id">1</th>
-                                <td>
-                                    <img src="../../Images/doctor1.png" alt="" class="td-image" />
-                                </td>
-                                <td class="td-font">Rohan Patil</td>
-                                <td class="td-font">rohanpatil5122001@gmail.com</td>
-                                <td class="td-font">05-12-2001</td>
-                                <td>
-                                    <button class="file">
-                                        <img src="../../Images/Admin/file.png" alt="" />
-                                    </button>
-                                </td>
-                            </tr>
-                            <tr>
-                                <th scope="row" class="appointment_id">1</th>
-                                <td>
-                                    <img src="../../Images/doctor1.png" alt="" class="td-image" />
-                                </td>
-                                <td class="td-font">Rohan Patil</td>
-                                <td class="td-font">rohanpatil5122001@gmail.com</td>
-                                <td class="td-font">05-12-2001</td>
-                                <td>
-                                    <button class="file">
-                                        <img src="../../Images/Admin/file.png" alt="" />
-                                    </button>
-                                </td>
-                            </tr>
-                            <tr>
-                                <th scope="row" class="appointment_id">1</th>
-                                <td>
-                                    <img src="../../Images/doctor1.png" alt="" class="td-image" />
-                                </td>
-                                <td class="td-font">Rohan Patil</td>
-                                <td class="td-font">rohanpatil5122001@gmail.com</td>
-                                <td class="td-font">05-12-2001</td>
-                                <td>
-                                    <button class="file">
-                                        <img src="../../Images/Admin/file.png" alt="" />
-                                    </button>
-                                </td>
-                            </tr>
-                            <tr>
-                                <th scope="row" class="appointment_id">1</th>
-                                <td>
-                                    <img src="../../Images/doctor1.png" alt="" class="td-image" />
-                                </td>
-                                <td class="td-font">Rohan Patil</td>
-                                <td class="td-font">rohanpatil5122001@gmail.com</td>
-                                <td class="td-font">05-12-2001</td>
-                                <td>
-                                    <button class="file">
-                                        <img src="../../Images/Admin/file.png" alt="" />
-                                    </button>
-                                </td>
-                            </tr>
-                            <tr>
-                                <th scope="row" class="appointment_id">1</th>
-                                <td>
-                                    <img src="../../Images/doctor1.png" alt="" class="td-image" />
-                                </td>
-                                <td class="td-font">Rohan Patil</td>
-                                <td class="td-font">rohanpatil5122001@gmail.com</td>
-                                <td class="td-font">05-12-2001</td>
-                                <td>
-                                    <button class="file">
-                                        <img src="../../Images/Admin/file.png" alt="" />
-                                    </button>
-                                </td>
-                            </tr>
-                            <tr>
-                                <th scope="row" class="appointment_id">1</th>
-                                <td>
-                                    <img src="../../Images/doctor1.png" alt="" class="td-image" />
-                                </td>
-                                <td class="td-font">Rohan Patil</td>
-                                <td class="td-font">rohanpatil5122001@gmail.com</td>
-                                <td class="td-font">05-12-2001</td>
-                                <td>
-                                    <button class="file">
-                                        <img src="../../Images/Admin/file.png" alt="" />
-                                    </button>
-                                </td>
-                            </tr>
-                            <tr>
-                                <th scope="row" class="appointment_id">1</th>
-                                <td>
-                                    <img src="../../Images/doctor1.png" alt="" class="td-image" />
-                                </td>
-                                <td class="td-font">Rohan Patil</td>
-                                <td class="td-font">rohanpatil5122001@gmail.com</td>
-                                <td class="td-font">05-12-2001</td>
-                                <td>
-                                    <button class="file">
-                                        <img src="../../Images/Admin/file.png" alt="" />
-                                    </button>
-                                </td>
-                            </tr>
-                            <tr>
-                                <th scope="row" class="appointment_id">1</th>
-                                <td>
-                                    <img src="../../Images/doctor1.png" alt="" class="td-image" />
-                                </td>
-                                <td class="td-font">Rohan Patil</td>
-                                <td class="td-font">rohanpatil5122001@gmail.com</td>
-                                <td class="td-font">05-12-2001</td>
-                                <td>
-                                    <button class="file">
-                                        <img src="../../Images/Admin/file.png" alt="" />
-                                    </button>
-                                </td>
-                            </tr>
-                            <tr>
-                                <th scope="row" class="appointment_id">1</th>
-                                <td>
-                                    <img src="../../Images/doctor1.png" alt="" class="td-image" />
-                                </td>
-                                <td class="td-font">Rohan Patil</td>
-                                <td class="td-font">rohanpatil5122001@gmail.com</td>
-                                <td class="td-font">05-12-2001</td>
-                                <td>
-                                    <button class="file">
-                                        <img src="../../Images/Admin/file.png" alt="" />
-                                    </button>
-                                </td>
-                            </tr>
-                            <tr>
-                                <th scope="row" class="appointment_id">1</th>
-                                <td>
-                                    <img src="../../Images/doctor1.png" alt="" class="td-image" />
-                                </td>
-                                <td class="td-font">Rohan Patil</td>
-                                <td class="td-font">rohanpatil5122001@gmail.com</td>
-                                <td class="td-font">05-12-2001</td>
-                                <td>
-                                    <button class="file">
-                                        <img src="../../Images/Admin/file.png" alt="" />
-                                    </button>
-                                </td>
-                            </tr>
-                            <tr>
-                                <th scope="row" class="appointment_id">1</th>
-                                <td>
-                                    <img src="../../Images/doctor1.png" alt="" class="td-image" />
-                                </td>
-                                <td class="td-font">Rohan Patil</td>
-                                <td class="td-font">rohanpatil5122001@gmail.com</td>
-                                <td class="td-font">05-12-2001</td>
-                                <td>
-                                    <button class="file">
-                                        <img src="../../Images/Admin/file.png" alt="" />
-                                    </button>
-                                </td>
-                            </tr>
-                            <tr>
-                                <th scope="row" class="appointment_id">1</th>
-                                <td>
-                                    <img src="../../Images/doctor1.png" alt="" class="td-image" />
-                                </td>
-                                <td class="td-font">Rohan Patil</td>
-                                <td class="td-font">rohanpatil5122001@gmail.com</td>
-                                <td class="td-font">05-12-2001</td>
-                                <td>
-                                    <button class="file">
-                                        <img src="../../Images/Admin/file.png" alt="" />
-                                    </button>
-                                </td>
-                            </tr>
-                            <tr>
-                                <th scope="row" class="appointment_id">1</th>
-                                <td>
-                                    <img src="../../Images/doctor1.png" alt="" class="td-image" />
-                                </td>
-                                <td class="td-font">Rohan Patil</td>
-                                <td class="td-font">rohanpatil5122001@gmail.com</td>
-                                <td class="td-font">05-12-2001</td>
-                                <td>
-                                    <button class="file">
-                                        <img src="../../Images/Admin/file.png" alt="" />
-                                    </button>
-                                </td>
-                            </tr>
-                            <tr>
-                                <th scope="row" class="appointment_id">1</th>
-                                <td>
-                                    <img src="../../Images/doctor1.png" alt="" class="td-image" />
-                                </td>
-                                <td class="td-font">Rohan Patil</td>
-                                <td class="td-font">rohanpatil5122001@gmail.com</td>
-                                <td class="td-font">05-12-2001</td>
-                                <td>
-                                    <button class="file">
-                                        <img src="../../Images/Admin/file.png" alt="" />
-                                    </button>
-                                </td>
-                            </tr>
+
+                            { modules.map((data) => {
+                               return(
+                                <>
+                                    <tr key={data.id}>
+                                    <th scope="row" className="appointment_id">{data.id}</th>
+                                    <td>
+                                        <img src={data.profile} alt="profile" className="td-image" />
+                                    </td>
+                                    <td className="td-font">{data.name}</td>
+                                    <td className="td-font">{data.email}</td>
+                                    <td className="td-font">{data.date}</td>
+                                    <td>
+                                        <button className="file">
+                                            <img src="../../Images/Admin/file.png" alt="" />
+                                        </button>
+                                    </td>
+                                </tr>
+                                </>
+                               )
+
+                            })}
+                            
+
                         </tbody>
                     </table>
                 </div>
-                <Footer/>
+                <Footer />
             </div>
 
-   
 
- </>
+
+        </>
     )
 }
