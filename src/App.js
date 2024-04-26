@@ -31,6 +31,8 @@ import Admin_module from "./Main Project/UI/Admin/Admin_module";
 import Appointment_selection from "./Main Project/UI/Admin/Appointment_selection";
 import Department_List from "./Main Project/UI/Admin/Department_List";
 import Patient_Module from "./Main Project/UI/Admin/Patient_Module";
+import Settings from "./Main Project/UI/Admin/Settings";
+
 
 function App() {
 
@@ -71,9 +73,12 @@ function App() {
             <Route path="/admin_module" element={<Admin_module/>}/>
             <Route path="/admin_selection" element={<Appointment_selection/>}/>
             <Route path="/admin_department" element={<Department_List/>}/>
-            <Route path="/Patient_Module" element={<Patient_Module/>}/>
+            <Route path="/admin_patient_Module" element={<Patient_Module/>}/>
+            <Route path="/admin_settings" element={<Settings/>}/>
         </Routes>
     </BrowserRouter>
+
+
 
     </>
   );

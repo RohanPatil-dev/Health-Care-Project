@@ -560,3 +560,88 @@
   box-shadow: 0px 0px 5px 3px aqua;
   outline-color: white;
 }
+
+
+/* settings */
+
+#setting-heading{
+  font-style: italic;
+  font-size: 50px;
+  font-weight: bold;
+  margin-left: 280px;
+  margin-bottom: 20px;
+  color: darkred;
+  text-shadow: 5px 10px 10px gray;
+}
+
+#settings{
+  margin-top: 20px;
+  margin-left: 150px;
+  margin-bottom: 30px;
+  gap: 10px 10px;
+  justify-content: center;
+  padding: 40px;
+  border-radius: 10px;
+  outline-color: deeppink;
+  outline-style: double;
+  outline-width: 10px;
+  width: 60rem;
+}
+
+/*  background-color: rgba(57, 55, 55, 0.929); use this to change background color     */ 
+
+
+#setting-grid{
+  display: grid;
+  grid-template-columns: auto auto ;
+  gap: 20px 20px;
+  margin-top: 30px;
+}
+
+.form-group label {
+    font-size: 20px;
+    
+  font-weight: bold;
+  font-style: oblique;
+  color:rgb(93, 0, 139);
+}
+
+.setting-form input::placeholder{
+    color: rgb(43, 0, 255);
+}
+
+
+#profile-image label{
+    margin-left: 220px;
+    font-size: 25px;
+    color: rgb(255, 0, 183);
+    font-weight: 600;
+}
+
+#profile-image img{
+    border-radius: 20px;
+    margin-left: 40px;
+    margin-top: 20px;
+    border: 2px solid black;
+}
+
+#profile-image input[type=file]{
+  margin-top: 30px;
+    padding: 5px;
+    color: #ff00b7;
+    border: 2px solid gray;
+    border-radius: 5px;
+    width: 25rem;
+
+}
+
+
+#add{
+  width: 300px;
+  font-size: 20px;
+  margin-left: 250px;
+  margin-top: 20px;
+  font-weight: 500;
+  background-color: dodgerblue;
+  color: white;
+}
