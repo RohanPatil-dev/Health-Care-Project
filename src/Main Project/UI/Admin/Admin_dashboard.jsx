@@ -1,5 +1,5 @@
 import React from "react"
-import Admin_Left from "./Admin_Left"
+import Admin_Left from "./Admin Reusable components/Admin_Left"
 import Admin_Right from "./Admin_Right"
 
 export default function Admin_dashboard() {

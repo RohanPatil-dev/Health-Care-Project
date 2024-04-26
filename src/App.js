@@ -29,6 +29,8 @@ import Footer from "./Main Project/UI/Index/Footer";
 import Admin_dashboard from "./Main Project/UI/Admin/Admin_dashboard";
 import Admin_module from "./Main Project/UI/Admin/Admin_module";
 import Appointment_selection from "./Main Project/UI/Admin/Appointment_selection";
+import Department_List from "./Main Project/UI/Admin/Department_List";
+import Patient_Module from "./Main Project/UI/Admin/Patient_Module";
 
 function App() {
 
@@ -68,6 +70,8 @@ function App() {
             <Route path="/admin_dashboard" element={<Admin_dashboard/>}/>
             <Route path="/admin_module" element={<Admin_module/>}/>
             <Route path="/admin_selection" element={<Appointment_selection/>}/>
+            <Route path="/admin_department" element={<Department_List/>}/>
+            <Route path="/Patient_Module" element={<Patient_Module/>}/>
         </Routes>
     </BrowserRouter>
 

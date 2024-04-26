@@ -391,3 +391,172 @@
 #submit:hover {
   box-shadow: 0px 0px 10px 5px aqua;
 }
+
+
+/* department */
+#department{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  padding: 20px;
+  gap: 10px 10px;
+  height: 500px;
+  overflow: auto;
+}
+
+#department > div{
+  text-align: center;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  border: 5px inset rgb(13, 214, 191);
+  overflow: hidden;
+  height: 350px;
+}
+
+.department-doc img{
+  height: 200px;
+  width: 100%;
+  transition-property: transform;
+  transition-duration: 2s;
+  transition-timing-function: ease;
+}
+
+.department-doc img:hover{
+    transform: scale(1.2);
+}
+
+.department-doc p{
+  color: red;
+  font-weight: 600;
+  font-size: 30px;
+  font-style: italic;
+  margin-top: 20px;
+}
+
+.department-doc button{
+  padding: 5px;
+  border: none;
+  border-radius: 10px;
+  outline-width: 5px;
+  outline-color: rgba(103, 202, 96, 0.758);
+  outline-style: solid;
+  background-image: linear-gradient(to top right,rgb(150, 49, 154),rgb(75, 184, 201));
+  color: white;
+  font-size: 20px;
+}
+
+.department-doc button:hover{
+  outline-color: yellow;
+  outline-style: solid;
+  background-image: linear-gradient(to right top,rgb(0, 255, 102),rgb(25, 0, 255));
+}
+
+
+
+/* department staff */
+
+.modal-header{
+  margin-left: 170px;
+}
+
+.modal-title{
+  font-weight: 600;
+  font-style: italic;
+  color: rgb(153, 51, 143);
+}
+
+.btn{
+  margin-right: 100px;
+}
+
+#dep-add-img{
+  margin-left: 100px;
+}
+
+#dep-add-img label{
+  font-size: 20px;
+}
+
+#dep-img{
+  height: 70px;
+  border-radius: 50%;
+  margin-left: 50px;
+}
+
+#staff-container{
+   margin-top: 30px;
+   padding: 10px;
+   margin-left: 30px;
+   margin-bottom: 30px;
+}
+
+#staff{
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  background-color: rgb(0, 255, 4);
+  color:navy;
+  font-weight: 600;
+  box-shadow: 0px 5px 0px 5px gray;
+}
+
+#staff:active{
+  border: none;
+  outline: none;
+  box-shadow: 0px 0px 0px 5px gray;
+}
+
+#staff:focus{
+  outline-color: rgb(0, 255, 4);
+}
+
+#dep-name{
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+#dep-name label{
+  font-size: 20px;
+}
+
+#dep-name select{
+  width: 150px;
+  margin-left: 10px;
+}
+
+#dep-name select:focus{
+  width: 150px;
+  box-shadow: 0px 0px 5px 3px aqua;
+  outline-color: white;
+}
+
+#dep-img-file{
+  margin-top: 10px;
+  border: 2px solid gray;
+}
+
+.staff-label{
+  margin-left: 100px;
+  margin-top: 10px;
+}
+
+.staff-label label{
+  font-size: 20px;
+}
+
+#staff-input-text{
+  margin-left: 5px;
+}
+
+#staff-input-email{
+  margin-left: 10px;
+}
+
+#staff-input-age{
+  margin-left: 20px;
+}
+
+#staff-input-text:focus,#staff-input-email:focus,#staff-input-age:focus,#staff-input-phone:focus{
+  box-shadow: 0px 0px 5px 3px aqua;
+  outline-color: white;
+}
