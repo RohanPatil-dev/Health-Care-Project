@@ -34,6 +34,11 @@ import Patient_Module from "./Main Project/UI/Admin/Patient_Module";
 import Settings from "./Main Project/UI/Admin/Settings";
 import Doctor_dashboard from "./Main Project/UI/Doctor/Doctor_dashboard";
 import Doctor_daily_sheet from "./Main Project/UI/Doctor/Doctor_daily_sheet";
+import Doctor_Settings from "./Main Project/UI/Doctor/Doctor_Settings";
+import User_dashboard from "./Main Project/UI/USER/User_dashboard";
+import Messages from "./Main Project/UI/USER/Messages";
+import User_settings from "./Main Project/UI/USER/User_settings";
+import User_Apointment from "./Main Project/UI/USER/User_Apointment";
 
 function App() {
   return (
@@ -81,7 +86,17 @@ function App() {
         <Routes>
         <Route path="/doctor_dashboard" element={<Doctor_dashboard/>}/>
         <Route path="/doctor_dailySheet" element={<Doctor_daily_sheet/>}/>
+        <Route path="/doctor_settings" element={<Doctor_Settings/>}/>
         </Routes>
+
+
+        {/* USER */}
+      <Routes>
+          <Route path="/user_dashboard" element={<User_dashboard/>}/>
+          <Route path="/user_messages" element={<Messages/>}/>
+          <Route path="/user_settings" element={<User_settings/>}/>
+          <Route path="/user_appointment" element={<User_Apointment/>}/>
+      </Routes>
     </BrowserRouter>
 
     </>

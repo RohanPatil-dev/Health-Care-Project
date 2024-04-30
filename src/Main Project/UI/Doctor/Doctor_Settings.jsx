@@ -1,34 +1,29 @@
 import React from "react"
-import Admin_Nav from "./Admin Reusable components/Admin_Nav"
-import Admin_TitleBar from "./Admin Reusable components/Admin_TitleBar"
+import Doctor_Nav from "./Doctor reusable components/Doctor_Nav"
+import Doctor_dashboard_left from "./Doctor reusable components/Doctor_dashboard_left"
 import Footer from "../Index/Footer"
 
-export default function Settings_right() {
+export default function Doctor_Settings() {
     return (
         <>
-            {/* right nav  */}
-            <div style={{ border: "2px solid black" }} id="grid-right">
+            <Doctor_Nav />
+            <Doctor_dashboard_left />
 
-                {/* this code is use for dashboard page  */}
-                <Admin_Nav />
+            {/* Change profile image : */}
+            <div id="settings" style={{marginLeft : "300px"}}>
 
-                <Admin_TitleBar title={"Settings"} />
+                <h1 id="doc_setting-heading">Settings</h1>
 
-                {/* Change profile image : */}
-                <div id="user_settings">
+                <div id="doc_profile-image">
+                    <label>Change profile image :</label>
+                    <img src="./Images/doctor1.png" height="70px"
+                        alt="" />
 
-                    <h1 id="setting-heading">Settings</h1>
+                    <input type="file" name="" id="" style={{ marginLeft: "230px" }} />
+                </div>
 
-                    <div id="profile-image">
-                        <label>Change profile image :</label>
-                        <img src="./Images/doctor1.png" height="70px"
-                            alt="" /> 
-
-                            <input type="file" name="" id="" style={{marginLeft : "200px"}} />
-                    </div>
-
-               <div id="setting-grid">
-               <div className="form-group setting-form">
+                <div id="setting-grid">
+                    <div className="form-group setting-form">
                         <label for="exampleInputName">Enter FullName</label>
                         <input type="text" className="form-control" id="exampleInputName" aria-describedby="emailHelp" placeholder="Enter Name......" />
                     </div>
@@ -47,14 +42,14 @@ export default function Settings_right() {
                         <label for="exampleInputC-Password">Enter Confirm Password</label>
                         <input type="password" className="form-control" id="exampleInputC-Password" aria-describedby="emailHelp" placeholder="Enter Confirm Password........" />
                     </div>
-               </div>
-
-                    <a href="" className="btn" id="add">Submit</a>
                 </div>
 
-
-                <Footer />
+                <a href="" className="btn" id="add">Submit</a>
             </div>
+
+
+            <Footer />
+
         </>
     )
 }

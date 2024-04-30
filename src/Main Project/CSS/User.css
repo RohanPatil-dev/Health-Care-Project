@@ -10,23 +10,6 @@ body {
   width: 100%;
 }
 
-
-/* header */
-
-.containers {
-  height: 70px;
-  width: 100%;
-  position: relative;
-}
-
-#doc {
-  height: 60px;
-  border-radius: 50%;
-  position: absolute;
-  top: 10px;
-  right: 150px;
-}
-
 /* sidebar */
 
 #dashboard_name {
@@ -80,7 +63,7 @@ body {
   background-image: linear-gradient(to bottom right,
       rgb(107, 51, 160),
       rgb(155, 85, 85));
-  height: 83%;
+  height: 91%;
   width: 0;
   transition: all 0.5s ease;
 }
@@ -89,9 +72,8 @@ body {
   height: 95%;
 }
 
-
-.sidebar-sheet {
-  height: 85%;
+.sidebar-write_appointment {
+  height: 92%;
 }
 
 .sidebar.active {
@@ -116,7 +98,7 @@ body {
 
 #pop_up {
   position: absolute;
-  right: 10px;
+  right: 40px;
   top: 20px;
 }
 
@@ -180,21 +162,21 @@ body {
   font-weight: 600;
 }
 
-#doctor_dashboard {
+#user_dashboard {
   display: grid;
-  grid-template-columns: auto auto auto;
-  padding: 10px;
-  gap: 30px 30px;
+  grid-template-columns: auto auto;
+  padding: 30px;
+  gap: 10px 10px;
   text-align: center;
   justify-content: start;
-  height: 200px;
+  height: 500px;
   margin-left: 50px;
 }
 
-#doctor_dashboard>div {
+#user_dashboard>div {
   background-color: rgb(141, 16, 203);
   padding: 20px;
-  height: 200px;
+  height: 180px;
   width: 300px;
   border-radius: 5px;
 }
@@ -224,33 +206,93 @@ body {
   font-style: italic;
 }
 
-
-#doc-table {
-  margin-top: 20px;
-  height: 600px;
-  overflow: auto;
+#user-footer {
+  position: absolute;
+  bottom: -40px;
+  width: 100%;
+  text-align: center;
+  background-image: linear-gradient(to top right,
+      rgb(165, 59, 145),
+      rgb(51, 43, 167));
+  padding: 12px;
+  font-size: 20px;
+  font-weight: 600;
 }
+
+/* messages */
+#grid-message {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  padding: 20px;
+  margin-top: 20px;
+  gap: 30px 20px;
+  overflow: auto;
+  height: 560px;
+}
+
+#grid-message>div {
+  text-align: center;
+  padding: 10px;
+}
+
+.message-container {
+  border-radius: 20px;
+  height: 18rem;
+}
+
+.message-container p:first-child {
+  margin-top: 40px;
+}
+
+.message-container p {
+  margin-left: 30px;
+  text-align: left;
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(227, 225, 226);
+}
+
+.message-container button {
+  border: none;
+  border-radius: 20px;
+  font-weight: 600;
+  color: white;
+}
+
 
 /* settings */
 
-#doc_setting-heading {
+#user_settings {
+  margin-top: 30px;
+  margin-left: 300px;
+  gap: 10px 10px;
+  justify-content: center;
+  padding: 30px;
+  border-radius: 10px;
+  outline-color: deeppink;
+  outline-style: double;
+  outline-width: 10px;
+  width: 60rem;
+}
+
+#user_setting-heading {
   font-style: italic;
   font-size: 50px;
   font-weight: bold;
-  margin-left: 330px;
+  margin-left: 340px;
   margin-bottom: 20px;
   color: darkred;
   text-shadow: 5px 10px 10px gray;
 }
 
-#doc_profile-image label {
+#user_profile-image label {
   margin-left: 250px;
   font-size: 25px;
   color: rgb(255, 0, 183);
   font-weight: 600;
 }
 
-#doc_profile-image img {
+#user_profile-image img {
   border-radius: 20px;
   margin-left: 40px;
   margin-top: 20px;
@@ -258,7 +300,7 @@ body {
 }
 
 
-#doc_profile-image input[type=file] {
+#user_profile-image input[type=file] {
   margin-top: 30px;
   padding: 5px;
   color: #ff00b7;
@@ -266,4 +308,60 @@ body {
   border-radius: 5px;
   width: 25rem;
 
+}
+
+#user_add{
+  width: 300px;
+  font-size: 20px;
+  margin-left: 280px;
+  margin-top: 20px;
+  font-weight: 500;
+  background-color: dodgerblue;
+  color: white;
+}
+
+
+
+/* appointment application */
+
+#application{
+background-image: linear-gradient(to top left ,rgb(139, 10, 139),rgb(239, 22, 98));
+padding: 10px;
+}
+
+#application h1{
+  font-weight: bold;
+  font-style: italic;
+  margin-top: 30px;
+}
+
+#application form{
+  margin-top: 30px;
+}
+
+#application form .row{
+  margin-left: 21.5rem;
+}
+
+
+#application form label{
+  font-size: 20px;
+  color:#fff;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.form-group input{
+  width: 400px;
+}
+
+#application form > div{
+  margin-left: 22.5%;
+}
+
+#appointment-btn{
+  margin-left: 42.5%;
+  width: 250px;
+  margin-bottom: 50px;
+  font-size: 20px;
 }
