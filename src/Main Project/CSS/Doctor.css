@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+  }
+  
+  
+  /* header */
+  
+  .containers {
+    height: 70px;
+    width: 100%;
+    position: relative;
+  }
+  
+  #doc {
+    height: 60px;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    right: 150px;
+  }
+  
+    /* sidebar */
+  
+    #dashboard_name {
+        text-align: center;
+        margin-top: 20px;
+        font-size: 30px;
+        color: white;
+        font-style: italic;
+        font-weight: 600;
+        text-shadow: 0px 0px 10px white;
+      }
+      
+      #user_pic {
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+      }
+      
+      #user_image {
+        position: relative;
+        border-radius: 50%;
+        box-shadow: 0px 0px 10px 5px rgb(232, 237, 237);
+        margin-left: 5.3rem;
+      }
+      
+      #User_name {
+        position: absolute;
+        top: 14rem;
+        left: 55px;
+        font-size: 25px;
+        color: rgb(175, 220, 25);
+        font-weight: 600;
+        text-shadow: 0px 0px 10px rgb(175, 220, 25);
+      }
+      
+      #name_type {
+        position: absolute;
+        top: 16rem;
+        left: 86px;
+        font-size: 25px;
+        color: rgb(27, 164, 232);
+        font-weight: 600;
+        text-shadow: 0px 0px 10px rgb(27, 164, 232);
+      }
+      
+      
+      .sidebar {
+        position: absolute;
+        top: 89px;
+        left: 0;
+        background-image: linear-gradient(
+          to bottom right,
+          rgb(107, 51, 160),
+          rgb(155, 85, 85)
+        );
+        height: 83%;
+        width: 0;
+        transition: all 0.5s ease;
+      }
+      
+      .sidebar-setting{
+        height: 95%;
+      }
+      
+    
+    .sidebar-sheet{
+      height: 85%;
+    }
+      
+      .sidebar.active {
+        width: 240px;
+      }
+      
+      .sidebar .logo_content .logo {
+        color: #fff;
+        display: flex;
+        height: 50px;
+        width: 100%;
+        align-items: center;
+      }
+      
+      .logo_content {
+        display: none;
+      }
+      
+      .sidebar.active .logo_content {
+        display: inline-block;
+      }
+      
+      #pop_up {
+        position: absolute;
+        right: 10px;
+        top: 20px;
+      }
+      
+      .sidebar ul {
+        margin-top: 130px;
+        list-style-type: none;
+        display: none;
+        opacity: 0;
+      }
+      
+      .sidebar.active ul {
+        display: inline-block;
+        opacity: 1;
+      }
+      
+      .sidebar ul li a {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        font-size: 25px;
+        color: rgb(255, 255, 255);
+        margin-left: 20px;
+        margin-top: 10px;
+        font-weight: 600;
+      }
+      
+      .icons {
+        height: 30px;
+        margin-right: 20px;
+      }
+
+      
+  /* for dashboard */
+  #patient_titles {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: left;
+    clear: both;
+    padding: 20px;
+    box-shadow: 0px 0px 20px 0px gray;
+  }
+  
+  #patient_titles > div {
+    margin-left: 30px;
+    font-size: 20px;
+    height: 20px;
+  }
+  
+  #title_image_patient {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    margin-bottom: 0px 0px 10px 10px gray;
+  }
+  
+  #title_image_patient img {
+    height: 70px;
+  }
+  
+  .dash-title_patient {
+    font-size: 25px;
+    font-weight: 600;
+  }
+  
+  #doctor_dashboard {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    gap: 30px 30px;
+    text-align: center;
+    justify-content: start;
+    height: 200px;
+    margin-left: 50px;
+  }
+  
+  #doctor_dashboard > div {
+    background-color: rgb(141, 16, 203);
+    padding: 20px;
+    height: 200px;
+    width: 300px;
+    border-radius: 5px;
+  }
+  
+  #container-grid {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  
+  .content {
+    height: 60px;
+  }
+  
+  .names {
+    font-size: 25px;
+    text-align: center;
+    font-weight: 600;
+    color: rgb(205, 210, 212);
+    margin-top: 10px;
+  }
+  
+  .totals {
+    font-size: 70px;
+    padding: 10px;
+    font-weight: bold;
+    color: rgb(196, 58, 37);
+    font-style: italic;
+  }
+  
+ 
+  #doc-table{
+      margin-top: 20px;
+      height: 600px;
+      overflow: auto;
+  }

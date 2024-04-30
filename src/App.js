@@ -32,21 +32,20 @@ import Appointment_selection from "./Main Project/UI/Admin/Appointment_selection
 import Department_List from "./Main Project/UI/Admin/Department_List";
 import Patient_Module from "./Main Project/UI/Admin/Patient_Module";
 import Settings from "./Main Project/UI/Admin/Settings";
-
+import Doctor_dashboard from "./Main Project/UI/Doctor/Doctor_dashboard";
+import Doctor_daily_sheet from "./Main Project/UI/Doctor/Doctor_daily_sheet";
 
 function App() {
-
-
   return (
     <>
-      {/* its healthcare project */}
+     {/* its healthcare project */}
       <BrowserRouter>
        <Routes>
         <Route path="/" element={<Login />} />
         <Route path="/signup" element={<Signup/>}/>
         </Routes>
 
-        <Nav/>
+        
         <Routes>
         <Route path="/index" element={<AddAll/>}/>
         <Route path="/services" element={<> <Services/> <Contact/> <Footer/> </>}/>
@@ -68,6 +67,7 @@ function App() {
         <Route path="/contact_us" element={<Contact_US />}/>
         </Routes>
 
+ {/* admin  */}
         <Routes>
             <Route path="/admin_dashboard" element={<Admin_dashboard/>}/>
             <Route path="/admin_module" element={<Admin_module/>}/>
@@ -76,9 +76,13 @@ function App() {
             <Route path="/admin_patient_Module" element={<Patient_Module/>}/>
             <Route path="/admin_settings" element={<Settings/>}/>
         </Routes>
+
+       {/* doctor  */}
+        <Routes>
+        <Route path="/doctor_dashboard" element={<Doctor_dashboard/>}/>
+        <Route path="/doctor_dailySheet" element={<Doctor_daily_sheet/>}/>
+        </Routes>
     </BrowserRouter>
-
-
 
     </>
   );
