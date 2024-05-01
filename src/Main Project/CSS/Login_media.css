@@ -1,0 +1,422 @@
+@media screen and (max-width: 700px) {
+    .container-1 {
+        width: 70%;
+        padding: 30px;
+        float: left;
+        margin: 6rem 0 11rem 6rem;
+        box-shadow: 0 0 15px 0px grey;
+        border-radius: 10px;
+    }
+
+    #signin {
+        text-align: center;
+        margin-bottom: 2rem;
+        font-size: 25px;
+        color: rgb(122, 221, 221);
+    }
+
+
+    .form-div {
+        margin-left: 5rem;
+    }
+
+    #name {
+        font-size: 18px;
+    }
+
+    .btn_1 {
+        width: 50%;
+        margin-left: 6rem;
+        /* background-color: rgb(51, 205, 89); */
+        background-image: linear-gradient(to top left,
+                rgb(45, 162, 115),
+                rgba(103, 202, 96, 0.758));
+        font-size: 20px;
+        color: white;
+        font-weight: bold;
+        border: none;
+        padding: 7px;
+        border-radius: 5px;
+    }
+
+    #redirect {
+        text-align: left;
+        margin-top: 20px;
+        font-size: 18px;
+    }
+
+    #link2 {
+        margin-left: 30px;
+    }
+
+    /* signup */
+
+    #signup {
+        display: grid;
+        grid-template-columns: auto auto;
+        margin: 0px 3rem 2rem 13rem;
+        font-size: 40px;
+        color: rgb(122, 221, 221);
+    }
+
+    .container-2 {
+        width: 90%;
+        padding: 30px;
+        float: left;
+        margin: 3rem 0 0 2rem;
+        box-shadow: 0 0 15px 0px grey;
+        border-radius: 10px;
+    }
+
+    .row {
+        margin-left: 3rem;
+        gap: 10px;
+    }
+
+    .check {
+        margin: 0px 20px 3rem 11rem;
+    }
+
+    #email_1 {
+        width: 30.5rem;
+    }
+
+    #gender {
+        margin: 0px 10px 1rem 7rem;
+    }
+
+
+    .btn_2 {
+        width: 50%;
+        margin-left: 9rem;
+        /* background-color: rgb(51, 205, 89); */
+        background-image: linear-gradient(to top left,
+                rgb(45, 162, 115),
+                rgba(103, 202, 96, 0.758));
+        font-size: 20px;
+        color: white;
+        font-weight: bold;
+        border: none;
+        padding: 7px;
+        border-radius: 5px;
+    }
+
+    #redirect_1 {
+        text-align: center;
+        margin-top: 20px;
+        font-size: 20px;
+    }
+
+
+    #redirect_1 a {
+        text-decoration: none;
+        color: aqua;
+    }
+
+    #redirect_1 a:hover {
+        color: blueviolet;
+    }
+
+
+    /* nav */
+    .navbar-nav {
+        margin-left: 0rem;
+    }
+
+    .nav-item {
+        background-color: rgb(30, 158, 87);
+    }
+
+    .nav-item:hover {
+        background-color: rgb(193, 35, 143);
+    }
+
+
+
+    /* grid contact */
+    #grid-contact-type {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 10px 10px;
+        background-image: linear-gradient(to top right, rgb(165, 59, 145), rgb(51, 43, 167));
+        margin-top: 30px;
+        padding: 20px;
+    }
+
+    #grid-contact-type>div {
+        border-radius: 10px;
+        padding: 30px;
+        height: 480px;
+    }
+
+
+
+    #grid-one h1 {
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    #grid-one p {
+        margin-top: 20px;
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    #grid-two h4 {
+        text-align: center;
+        margin-left: 0px;
+        margin-right: 25px;
+
+    }
+
+    #grid-two p,
+    #grid-three p {
+        color: white;
+    }
+
+    #grid-two p img,
+    #grid-three p img {
+        height: 20px;
+        margin-right: 10px;
+    }
+
+
+    /* services */
+
+    .card {
+        width: 15rem;
+        height: 10rem;
+    }
+
+    #services {
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 10px 10px;
+    }
+
+    #services>div {
+        padding: 5px;
+        background-color: white;
+        border-radius: 10px;
+        margin-top: 100px;
+        outline-width: 3px;
+        outline-color: rgba(103, 202, 96, 0.758);
+        outline-style: solid;
+        transition-property: transform;
+        transition-duration: 2s;
+        transition-timing-function: ease;
+        height: 500px;
+    }
+
+    .img-services {
+        height: 70px;
+        width: 70px;
+        margin-left: 80px;
+    }
+
+    .service-name {
+        font-size: 20px;
+        font-weight: 500;
+        font-style: italic;
+        color: red;
+        text-align: center;
+    }
+
+    .card .service-read {
+        position: absolute;
+        top: 360px;
+        left: 20px;
+        padding: 10px;
+        border: none;
+        border-radius: 10px;
+        outline-width: 5px;
+        outline-color: rgba(103, 202, 96, 0.758);
+        outline-style: solid;
+        background-image: linear-gradient(to top right,
+                rgb(150, 49, 154),
+                rgb(75, 184, 201));
+        color: white;
+        font-size: 20px;
+        width: 200px;
+    }
+
+
+    /* about us */
+
+    .about-name {
+        font-weight: bold;
+        font-size: 60px;
+        text-shadow: 5px 10px 10px gray;
+        margin-left: 10px;
+    }
+
+    .about-description {
+        font-size: 25px;
+        margin-left: 15px;
+    }
+
+    .read-about {
+        padding: 10px;
+        border: none;
+        width: 300px;
+        border-radius: 10px;
+        outline-width: 5px;
+        outline-color: rgba(103, 202, 96, 0.758);
+        outline-style: solid;
+        background-image: linear-gradient(to top right,
+                rgb(150, 49, 154),
+                rgb(75, 184, 201));
+        color: white;
+        font-size: 20px;
+        margin-left: 140px;
+        margin-top: 20px;
+    }
+
+    /* internal pages */
+
+    /* ambulance */
+    #ambulance-img {
+        background-image: url("/public/Images/Services/importance-in-society.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 400px;
+        width: 70%;
+        margin-left: 100px;
+    }
+
+    #text {
+        margin-left: 100px;
+        margin-top: 30px;
+        font-size: 20px;
+        width: 70%;
+    }
+
+
+    /* doctor */
+    #doctor-img {
+        background-image: url("/public/Images/Services/doctor-hospital_1140x350.webp");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 400px;
+        width: 70%;
+        margin-left: 100px;
+    }
+
+    #doctor-text {
+        margin-left: 100px;
+        margin-top: 30px;
+        font-size: 20px;
+        width: 70%;
+    }
+
+
+
+    /* beds */
+    #bed-img {
+        background-image: url("/public/Images/Services/beds.jpeg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 400px;
+        width: 70%;
+        margin-left: 100px;
+    }
+
+    #bed-text {
+        margin-left: 100px;
+        margin-top: 30px;
+        font-size: 20px;
+        width: 70%;
+    }
+
+    /* total care */
+    #text {
+        margin-left: 100px;
+        margin-top: 30px;
+        font-size: 20px;
+        width: 70%;
+    }
+
+    /* medicine */
+    #text {
+        margin-left: 100px;
+        margin-top: 30px;
+        font-size: 20px;
+        width: 70%;
+    }
+
+    #medicine-img {
+        background-image: url("/public/Images/Services/medicine_list.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 50rem;
+        margin-left: 90px;
+        margin-top: 50px;
+    }
+
+
+    /* free checkup */
+    #checkup-img {
+        background-image: url("/public/Images/Services/clip-doctor-online.gif");
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 600px;
+        margin-left: 60px;
+    }
+
+    #text {
+        margin-left: 100px;
+        margin-top: 30px;
+        font-size: 20px;
+        width: 70%;
+    }
+
+    #check-list {
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: center;
+        padding: 20px;
+        gap: 30px 20px;
+        margin-top: 5%;
+    }
+
+    #check-list>div {
+        padding: 10px;
+        width: 300px;
+        text-align: center;
+        border: 3px solid rgb(92, 218, 92);
+        border-radius: 10px;
+        box-shadow: 0px 0px 5px 5px rgb(92, 218, 92);
+    }
+
+    .grid-img {
+        height: 200px;
+        width: 200px;
+    }
+
+    .test {
+        color: rgb(98, 176, 179);
+        text-align: center;
+        font-size: 30px;
+    }
+
+    
+/* blogs */
+#blogify-img,#blogify-img_2,#blogify-img_3{
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 20rem;
+   margin-left: 60px;
+   margin-top: 50px;
+  }
+  
+  #blogify-text{
+    margin-left: 100px;
+    margin-top: 30px;
+    font-size: 20px;
+    width: 70%;
+  }
+
+}

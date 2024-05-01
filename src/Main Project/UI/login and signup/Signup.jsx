@@ -1,6 +1,7 @@
 import React from "react"
 
 import "../../CSS/Login.css"
+import "../../CSS/Login_media.css"
 
 import { Link } from "react-router-dom"
 
