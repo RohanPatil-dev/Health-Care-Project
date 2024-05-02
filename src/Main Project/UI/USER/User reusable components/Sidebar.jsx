@@ -1,6 +1,7 @@
 import React from "react"
 
 import "../../../CSS/User.css"
+import "../../../CSS/user_media.css"
 
 export default function Sidebar() {
   return(

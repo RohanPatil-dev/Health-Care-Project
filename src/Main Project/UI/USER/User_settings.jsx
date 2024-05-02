@@ -19,7 +19,7 @@ export default function User_settings() {
                     <img src="./Images/doctor1.png" height="70px"
                         alt="" />
 
-                    <input type="file" name="" id="" style={{ marginLeft: "220px" }} />
+                    <input type="file" name="" id="" style={{ marginLeft: "20px" }} />
                 </div>
 
                 <div id="setting-grid">
