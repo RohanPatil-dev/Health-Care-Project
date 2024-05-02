@@ -9,17 +9,13 @@
 #grid-user {
   position: relative;
   left: 0;
-  /* display: none; */
+  display: none;
   background-image: linear-gradient(to bottom right,
       rgb(107, 51, 160),
       rgb(155, 85, 85));
+  height: 100%;
   width: 200px;
   z-index: 1;
-  overflow: scroll;
-}
-
-#grid-user::-webkit-scrollbar{
-  width: 10px;
 }
 
 #dashboard_name {
@@ -76,8 +72,7 @@
 
 #grid-right {
   width: 96rem;
-  position: absolute;
-  overflow: hidden;
+  position: scroll;
   
 }
 
@@ -578,7 +573,7 @@
   font-style: italic;
   font-size: 50px;
   font-weight: bold;
-  margin-left: 320px;
+  margin-left: 280px;
   margin-bottom: 20px;
   color: darkred;
   text-shadow: 5px 10px 10px gray;
@@ -621,7 +616,7 @@
 
 
 #profile-image label{
-    margin-left: 250px;
+    margin-left: 220px;
     font-size: 25px;
     color: rgb(255, 0, 183);
     font-weight: 600;
@@ -648,23 +643,9 @@
 #add{
   width: 300px;
   font-size: 20px;
-  margin-left: 270px;
+  margin-left: 250px;
   margin-top: 20px;
   font-weight: 500;
   background-color: dodgerblue;
   color: white;
-}
-
-/* footer */
-#footer {
-  margin-top:40px;
-  text-align: center;
-  background-image: linear-gradient(
-    to top right,
-    rgb(165, 59, 145),
-    rgb(51, 43, 167)
-  );
-  padding: 10px;
-  font-size: 20px;
-  font-weight: 600;
 }

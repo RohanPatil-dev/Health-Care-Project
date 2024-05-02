@@ -1,7 +1,7 @@
 import React from "react"
-import Footer from "../Index/Footer"
 import Admin_Nav from "./Admin Reusable components/Admin_Nav"
 import Admin_TitleBar from "./Admin Reusable components/Admin_TitleBar"
+import Admin_Footer from "./Admin Reusable components/Admin_Footer"
 
 export default function Admin_Right() {
     return (
@@ -58,7 +58,7 @@ export default function Admin_Right() {
                         <div class="totals">17</div>
                     </div>
                 </div>
-                <Footer />
+                <Admin_Footer />
             </div>
 
 

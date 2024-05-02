@@ -1,7 +1,8 @@
 import React from "react"
 import Admin_Nav from "./Admin Reusable components/Admin_Nav"
 import Admin_TitleBar from "./Admin Reusable components/Admin_TitleBar"
-import Footer from "../Index/Footer"
+import Admin_Footer from "./Admin Reusable components/Admin_Footer"
+
 
 export default function Settings_right() {
     return (
@@ -24,7 +25,7 @@ export default function Settings_right() {
                         <img src="./Images/doctor1.png" height="70px"
                             alt="" /> 
 
-                            <input type="file" name="" id="" style={{marginLeft : "200px"}} />
+                            <input type="file" name="" id="" style={{marginLeft : "230px"}} />
                     </div>
 
                <div id="setting-grid">
@@ -53,7 +54,7 @@ export default function Settings_right() {
                 </div>
 
 
-                <Footer />
+             <Admin_Footer/>
             </div>
         </>
     )

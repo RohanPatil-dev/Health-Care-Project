@@ -6,7 +6,7 @@ export default function Department_List() {
     return (
         <>
             <div id="grid-container">
-                <Admin_Left />
+                <Admin_Left height={"54rem"} />
                 <Department_Right />
             </div>
         </>

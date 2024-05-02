@@ -6,7 +6,7 @@ export default function Admin_module() {
   return (
     <>
       <div id="grid-container">
-        <Admin_Left />
+        <Admin_Left height={"49rem"}/>
         <Admin_module_right />
       </div>
     </>

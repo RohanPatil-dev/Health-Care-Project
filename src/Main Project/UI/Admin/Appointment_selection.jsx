@@ -6,7 +6,7 @@ export default function Appointment_selection() {
   return (
     <>
       <div id="grid-container">
-        <Admin_Left />
+        <Admin_Left height={"58rem"} />
         <Admin_Selection_Right/>
       </div>
     </>

@@ -2,27 +2,29 @@ import React from "react"
 
 import "../../../CSS/Admin_dashboard.css"
 
-export default function Admin_Left() {
+export default function Admin_Left(props) {
     return (
     <>
                 {/* left inline-block  */}
-                <div id="grid-user">
+                <div id="grid-user" style={{height : props.height}}>
                     <div id="dashboard_name">Central Care Hospital</div>
 
                     <div id="user_pic" style={{border: "2px solid black"}}>
-                        <div>
-                            <img
-                                src="../../Images/doctor1.png"
+                          <div>
+                          <img
+                                src="./Images/doctor1.png"
                                 alt=""
                                 height={"70px"}
-                                id="user_image"
+                                id="admin_image"
                             />
+                          </div>
+
+                          <div>
+                            <p id="admin_name">Rohan Patil</p>
                         </div>
+
                         <div>
-                            <p id="User_name">Rohan Patil</p>
-                        </div>
-                        <div>
-                            <p id="name_type">ADMIN</p>
+                            <p id="admin_title">ADMIN</p>
                         </div>
                     </div>
 

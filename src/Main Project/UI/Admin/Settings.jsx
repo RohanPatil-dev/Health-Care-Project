@@ -6,7 +6,7 @@ export default function Settings() {
     return (
         <>
             <div id="grid-container">
-                <Admin_Left />
+                <Admin_Left height={"55rem"} />
                 <Settings_right />
             </div>
         </>
