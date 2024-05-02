@@ -10,16 +10,16 @@ export default function Doctor_Settings() {
             <Doctor_dashboard_left />
 
             {/* Change profile image : */}
-            <div id="settings" style={{marginLeft : "300px"}}>
+            <div id="doctor_settings">
 
-                <h1 id="doc_setting-heading">Settings</h1>
+                <h1 id="doctor_setting-heading">Settings</h1>
 
-                <div id="doc_profile-image">
+                <div id="doctor_profile-image">
                     <label>Change profile image :</label>
                     <img src="./Images/doctor1.png" height="70px"
                         alt="" />
 
-                    <input type="file" name="" id="" style={{ marginLeft: "230px" }} />
+                    <input type="file" name="" id="" style={{ marginLeft: "20px" }} />
                 </div>
 
                 <div id="setting-grid">
@@ -44,9 +44,8 @@ export default function Doctor_Settings() {
                     </div>
                 </div>
 
-                <a href="" className="btn" id="add">Submit</a>
+                <a href="" className="btn" id="doctor_add">Submit</a>
             </div>
-
 
             <Footer />
 

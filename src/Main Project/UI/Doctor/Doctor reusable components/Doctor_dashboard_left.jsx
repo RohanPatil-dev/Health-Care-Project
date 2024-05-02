@@ -1,6 +1,7 @@
 import React from "react"
 
 import "../../../CSS/Doctor.css"
+import "../../../CSS/Doctor_media.css"
 
 export default function Doctor_dashboard_left() {
   return (

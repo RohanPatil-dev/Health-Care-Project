@@ -1,0 +1,170 @@
+@media screen and (max-width: 700px) {
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+  
+  
+    #patient_titles {
+      position: sticky;
+      top: 0;
+      display: grid;
+      grid-template-columns: auto auto;
+      justify-content: left;
+      clear: both;
+      padding: 20px;
+      box-shadow: 0px 0px 20px 0px gray;
+    }
+  
+    .sidebar {
+      position: absolute;
+      top: 0;
+      left: 0;
+      background-image: linear-gradient(
+        to bottom right,
+        rgb(107, 51, 160),
+        rgb(155, 85, 85)
+      );
+      height: 40rem;
+      width: 0;
+      transition: all 0.5s ease;
+    }
+  
+    .sidebar-setting {
+      height: 95%;
+    }
+  
+    .sidebar-sheet {
+      height: 100%;
+    }
+  
+    #doctor_dashboard {
+      display: grid;
+      grid-template-columns: auto auto;
+      padding: 5px;
+      gap: 10px 30px;
+      text-align: center;
+      justify-content: start;
+      height: 500px;
+      margin-left: 20px;
+    }
+  
+    #user-footer {
+      position: absolute;
+      bottom: -50px;
+      width: 100%;
+      text-align: center;
+      background-image: linear-gradient(
+        to top right,
+        rgb(165, 59, 145),
+        rgb(51, 43, 167)
+      );
+      padding: 12px;
+      font-size: 20px;
+      font-weight: 600;
+    }
+  
+  
+  
+  /* daily sheet  */
+  
+  #tables {
+      margin-top: 20px;
+      height: 600px;
+      overflow: auto;
+    }
+    
+    .appointment_id {
+      font-size: 30px;
+    }
+    
+    .td-image {
+      border-radius: 50%;
+      height: 60px;
+    }
+    
+    .trash {
+      background-color: rgb(221, 15, 15);
+      border: none;
+      border-radius: 20%;
+      cursor: pointer;
+    }
+    
+    .trash img {
+      border: none;
+      height: 40px;
+    }
+    
+    .td-font {
+      font-size: 20px;
+    }
+  
+       /* settings */
+   #doctor_settings {
+    margin-top: 30px;
+    margin-left: 80px;
+    gap: 10px 10px;
+    justify-content: center;
+    padding: 30px;
+    border-radius: 10px;
+    outline-color: deeppink;
+    outline-style: double;
+    outline-width: 10px;
+    width: 30rem;
+  }
+
+  
+#doctor_setting-heading {
+    font-style: italic;
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 120px;
+    margin-bottom: 20px;
+    color: darkred;
+    text-shadow: 5px 10px 10px gray;
+  }
+
+  #setting-grid{
+     display: grid;
+     grid-template-columns: auto;
+  }
+
+  
+#doctor_profile-image label {
+    margin-left: 30px;
+    font-size: 25px;
+    color: rgb(255, 0, 183);
+    font-weight: 600;
+  }
+  
+  #doctor_profile-image img {
+    border-radius: 20px;
+    margin-left: 40px;
+    margin-top: 20px;
+    border: 2px solid black;
+  }
+  
+  
+  #doctor_profile-image input[type=file] {
+    margin-top: 30px;
+    padding: 5px;
+    color: #ff00b7;
+    border: 2px solid gray;
+    border-radius: 5px;
+    width: 25rem;
+  
+  }
+  
+  #doctor_add{
+    width: 300px;
+    font-size: 20px;
+    margin-left: 60px;
+    margin-top: 20px;
+    font-weight: 500;
+    background-color: dodgerblue;
+    color: white;
+  }
+  
+  }
+  
