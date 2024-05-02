@@ -1,7 +1,7 @@
 import React from "react";
 import Admin_Nav from "./Admin Reusable components/Admin_Nav";
 import Admin_TitleBar from "./Admin Reusable components/Admin_TitleBar";
-import Admin_Footer from "../Admin/Admin Reusable components/Admin_Footer"
+import Footer from "../Index/Footer";
 
 export default function Admin_Selection_Right() {
   return (
@@ -65,7 +65,7 @@ export default function Admin_Selection_Right() {
           </div>
         </div>
 
-    <Admin_Footer/>
+        <Footer />
       </div>
     </>
   );

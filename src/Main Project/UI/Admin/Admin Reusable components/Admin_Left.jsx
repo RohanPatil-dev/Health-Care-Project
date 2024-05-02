@@ -10,19 +10,17 @@ export default function Admin_Left(props) {
                     <div id="dashboard_name">Central Care Hospital</div>
 
                     <div id="user_pic" style={{border: "2px solid black"}}>
-                          <div>
-                          <img
+                        <div>
+                            <img
                                 src="./Images/doctor1.png"
                                 alt=""
                                 height={"70px"}
                                 id="admin_image"
                             />
-                          </div>
-
-                          <div>
+                        </div>
+                        <div>
                             <p id="admin_name">Rohan Patil</p>
                         </div>
-
                         <div>
                             <p id="admin_title">ADMIN</p>
                         </div>

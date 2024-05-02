@@ -6,7 +6,7 @@ export default function Patient_Module() {
   return (
     <>
       <div id="grid-container">
-        <Admin_Left height={"49rem"}/>
+        <Admin_Left height={"46.5rem"} />
         <Patient_Right />
       </div>
     </>

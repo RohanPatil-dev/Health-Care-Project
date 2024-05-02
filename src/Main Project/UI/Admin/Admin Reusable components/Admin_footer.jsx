@@ -5,5 +5,5 @@ export default function Admin_Footer() {
         <>
             <div id="footer" className="text-warning">Created By &copy; <span className="text-primary"> Central Health Care </span>All rights reserved</div>
         </>
-  )
+    )
 }

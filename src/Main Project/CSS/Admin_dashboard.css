@@ -13,9 +13,10 @@
   background-image: linear-gradient(to bottom right,
       rgb(107, 51, 160),
       rgb(155, 85, 85));
+ 
   width: 200px;
   z-index: 1;
-  overflow: scroll;
+  overflow: auto;
 }
 
 #grid-user::-webkit-scrollbar{
@@ -77,8 +78,6 @@
 #grid-right {
   width: 96rem;
   position: absolute;
-  overflow: hidden;
-  
 }
 
 #user_pic {
@@ -90,6 +89,7 @@
   display: grid;
   grid-template-columns: auto auto;
   justify-content: left;
+  overflow: hidden;
 }
 
 .form-inline {
@@ -578,7 +578,7 @@
   font-style: italic;
   font-size: 50px;
   font-weight: bold;
-  margin-left: 320px;
+  margin-left: 330px;
   margin-bottom: 20px;
   color: darkred;
   text-shadow: 5px 10px 10px gray;
@@ -586,7 +586,7 @@
 
 #settings{
   margin-top: 20px;
-  margin-left: 150px;
+  margin-left: 170px;
   margin-bottom: 30px;
   gap: 10px 10px;
   justify-content: center;
@@ -657,7 +657,7 @@
 
 /* footer */
 #footer {
-  margin-top:40px;
+  margin-top: 30px;
   text-align: center;
   background-image: linear-gradient(
     to top right,
