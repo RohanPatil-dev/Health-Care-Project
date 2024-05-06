@@ -10,6 +10,29 @@
     position: absolute;
   }
 
+  /* admin module */
+/* appointment */
+
+.appointment_id {
+  font-size: 30px;
+  width: 300px;
+}
+
+.file {
+  background-color: rgb(30, 219, 30);
+  border: none;
+  border-radius: 20%;
+  cursor: pointer;
+}
+
+.file img {
+  border: none;
+  height: 40px;
+}
+
+.file:hover {
+  background-color: red;
+}
   
 /* appointment doctor selection */
 

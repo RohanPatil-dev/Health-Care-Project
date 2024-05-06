@@ -43,7 +43,7 @@ export default function Admin_module_right() {
                                     <td className="td-font">{data.date}</td>
                                     <td>
                                         <button className="file">
-                                            <img src="../../Images/Admin/file.png" alt="" />
+                                            <img src="./Images/Admin/file.png" alt="" />
                                         </button>
                                     </td>
                                 </tr>
