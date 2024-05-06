@@ -24,7 +24,7 @@ export default function Settings_right() {
                         <img src="./Images/doctor1.png" height="70px"
                             alt="" /> 
 
-                            <input type="file" name="" id="" style={{marginLeft : "230px"}} />
+                            <input type="file" name="" id="" />
                     </div>
 
                <div id="setting-grid">

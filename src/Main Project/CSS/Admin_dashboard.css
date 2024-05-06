@@ -9,7 +9,7 @@
 #grid-user {
   position: relative;
   left: 0;
-  /* display: none; */
+  display: none;
   background-image: linear-gradient(to bottom right,
       rgb(107, 51, 160),
       rgb(155, 85, 85));
@@ -636,6 +636,7 @@
 
 #profile-image input[type=file]{
   margin-top: 30px;
+  margin-left: 230px;
     padding: 5px;
     color: #ff00b7;
     border: 2px solid gray;

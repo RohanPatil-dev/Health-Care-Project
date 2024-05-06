@@ -1,0 +1,110 @@
+@media screen and (max-width: 700px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  #grid-right {
+    width: 40rem;
+    position: absolute;
+  }
+  
+
+  /* settings */
+
+  #setting-heading {
+    font-style: italic;
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 120px;
+    margin-bottom: 20px;
+    color: darkred;
+    text-shadow: 5px 10px 10px gray;
+  }
+
+  #settings {
+    margin-top: 20px;
+    margin-left: 170px;
+    margin-bottom: 30px;
+    gap: 10px 10px;
+    justify-content: center;
+    padding: 40px;
+    border-radius: 10px;
+    outline-color: deeppink;
+    outline-style: double;
+    outline-width: 10px;
+    width: 60rem;
+  }
+
+  /*  background-color: rgba(57, 55, 55, 0.929); use this to change background color     */
+
+  #setting-grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px 20px;
+    margin-top: 30px;
+    width: 300px;
+  }
+
+  .setting-form label {
+    font-size: 20px;
+    font-weight: bold;
+    font-style: oblique;
+    color: rgb(93, 0, 139);
+  }
+
+  .setting-form::placeholder {
+    color: rgb(43, 0, 255);
+  }
+
+  #profile-image label {
+    margin-left: 50px;
+    font-size: 25px;
+    color: rgb(255, 0, 183);
+    font-weight: 600;
+  }
+
+  #profile-image img {
+    border-radius: 20px;
+    margin-left: 40px;
+    margin-top: 20px;
+    border: 2px solid black;
+  }
+
+  #profile-image input[type="file"] {
+    margin-top: 30px;
+    margin-left: 0px;
+    padding: 5px;
+    color: #ff00b7;
+    border: 2px solid gray;
+    border-radius: 5px;
+    width: 25rem;
+  }
+
+  #add {
+    width: 300px;
+    font-size: 20px;
+    margin-left: 60px;
+    margin-top: 20px;
+    font-weight: 500;
+    background-color: dodgerblue;
+    color: white;
+  }
+
+  /* footer */
+#footer {
+  margin-top: 30px;
+  width: 100%;
+  text-align: center;
+  background-image: linear-gradient(
+    to top right,
+    rgb(165, 59, 145),
+    rgb(51, 43, 167)
+  );
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+}

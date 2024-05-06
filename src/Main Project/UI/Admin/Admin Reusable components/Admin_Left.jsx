@@ -1,6 +1,7 @@
 import React from "react"
 
 import "../../../CSS/Admin_dashboard.css"
+import "../../../CSS/Admin_media.css"
 
 export default function Admin_Left(props) {
     return (
