@@ -34,7 +34,7 @@ export default function Department_Right() {
                         department.map((data) => {
                             return (
                                 <>
-                                    <div class="department-doc" key={data.id}>
+                                    <div className="department-doc" key={data.id}>
                                         <img src={data.img} alt="" />
                                         <p>{data.dep_name}</p>
                                         <button type="button">See our doctors</button>

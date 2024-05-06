@@ -13,93 +13,93 @@ export default function Messages() {
 
             {/* messages  */}
             <div id="grid-message">
-                <div class="message-container bg-dark">
+                <div className="message-container bg-dark">
                     <p>To : <span>Rohan Patil</span></p>
                     <p>From : <span>Admin</span></p>
                     <p>Subject : <span>Hello user,i want to inform</span></p>
 
-                    <button type="button" class="bg-danger p-3">Read Message</button>
+                    <button type="button" className="bg-danger p-3">Read Message</button>
                 </div>
 
-                <div class="message-container bg-dark">
+                <div className="message-container bg-dark">
                     <p>To : <span>Rohan Patil</span></p>
                     <p>From : <span>Admin</span></p>
                     <p>Subject : <span>Hello user,i want to inform</span></p>
 
-                    <button type="button" class="bg-danger p-3">Read Message</button>
+                    <button type="button" className="bg-danger p-3">Read Message</button>
                 </div>
 
-                <div class="message-container bg-dark">
+                <div className="message-container bg-dark">
                     <p>To : <span>Rohan Patil</span></p>
                     <p>From : <span>Admin</span></p>
                     <p>Subject : <span>Hello user,i want to inform</span></p>
 
-                    <button type="button" class="bg-danger p-3">Read Message</button>
+                    <button type="button" className="bg-danger p-3">Read Message</button>
                 </div>
 
-                <div class="message-container bg-dark">
+                <div className="message-container bg-dark">
                     <p>To : <span>Rohan Patil</span></p>
                     <p>From : <span>Admin</span></p>
                     <p>Subject : <span>Hello user,i want to inform</span></p>
 
-                    <button type="button" class="bg-danger p-3">Read Message</button>
+                    <button type="button" className="bg-danger p-3">Read Message</button>
                 </div>
 
-                <div class="message-container bg-dark">
+                <div className="message-container bg-dark">
                     <p>To : <span>Rohan Patil</span></p>
                     <p>From : <span>Admin</span></p>
                     <p>Subject : <span>Hello user,i want to inform</span></p>
 
-                    <button type="button" class="bg-danger p-3">Read Message</button>
+                    <button type="button" className="bg-danger p-3">Read Message</button>
                 </div>
 
-                <div class="message-container bg-dark">
+                <div className="message-container bg-dark">
                     <p>To : <span>Rohan Patil</span></p>
                     <p>From : <span>Admin</span></p>
                     <p>Subject : <span>Hello user,i want to inform</span></p>
 
-                    <button type="button" class="bg-danger p-3">Read Message</button>
+                    <button type="button" className="bg-danger p-3">Read Message</button>
                 </div>
 
 
-                <div class="message-container bg-dark">
+                <div className="message-container bg-dark">
                     <p>To : <span>Rohan Patil</span></p>
                     <p>From : <span>Admin</span></p>
                     <p>Subject : <span>Hello user,i want to inform</span></p>
 
-                    <button type="button" class="bg-danger p-3">Read Message</button>
+                    <button type="button" className="bg-danger p-3">Read Message</button>
                 </div>
 
-                <div class="message-container bg-dark">
+                <div className="message-container bg-dark">
                     <p>To : <span>Rohan Patil</span></p>
                     <p>From : <span>Admin</span></p>
                     <p>Subject : <span>Hello user,i want to inform</span></p>
 
-                    <button type="button" class="bg-danger p-3">Read Message</button>
+                    <button type="button" className="bg-danger p-3">Read Message</button>
                 </div>
 
-                <div class="message-container bg-dark">
+                <div className="message-container bg-dark">
                     <p>To : <span>Rohan Patil</span></p>
                     <p>From : <span>Admin</span></p>
                     <p>Subject : <span>Hello user,i want to inform</span></p>
 
-                    <button type="button" class="bg-danger p-3">Read Message</button>
+                    <button type="button" className="bg-danger p-3">Read Message</button>
                 </div>
 
-                <div class="message-container bg-dark">
+                <div className="message-container bg-dark">
                     <p>To : <span>Rohan Patil</span></p>
                     <p>From : <span>Admin</span></p>
                     <p>Subject : <span>Hello user,i want to inform</span></p>
 
-                    <button type="button" class="bg-danger p-3">Read Message</button>
+                    <button type="button" className="bg-danger p-3">Read Message</button>
                 </div>
 
-                <div class="message-container bg-dark">
+                <div className="message-container bg-dark">
                     <p>To : <span>Rohan Patil</span></p>
                     <p>From : <span>Admin</span></p>
                     <p>Subject : <span>Hello user,i want to inform</span></p>
 
-                    <button type="button" class="bg-danger p-3">Read Message</button>
+                    <button type="button" className="bg-danger p-3">Read Message</button>
                 </div>
             </div>
 

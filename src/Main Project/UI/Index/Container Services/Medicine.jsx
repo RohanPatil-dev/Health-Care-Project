@@ -13,7 +13,7 @@ export default function Medicine() {
                 straight. Some can be bought over the counter at pharmacies or other stores. Others require a doctor's
                 prescription. Some are available only in hospitals.</p>
 
-            <h2 class="text-danger">What Are Medicines?</h2>
+            <h2 className="text-danger">What Are Medicines?</h2>
 
             <p id="definition">Definition : Medicines are chemicals or compounds used to cure, halt, or prevent disease;
                 ease symptoms; or help in the diagnosis of illnesses. Advances in medicines have enabled doctors to cure
@@ -26,7 +26,7 @@ export default function Medicine() {
                 byproducts of organisms such as fungus. And a few are even biologically engineered by inserting genes
                 into bacteria that make them produce the desired substance.</p>
 
-            <p class="mt-5">When we think about taking medicines, we often think of pills. But medicines can be
+            <p className="mt-5">When we think about taking medicines, we often think of pills. But medicines can be
                 delivered in many ways, such as:</p>
             <ul id="points">
                 <li>liquids that are swallowed.</li>
@@ -55,7 +55,7 @@ export default function Medicine() {
                 can withdraw a medicine from the market at any time if it later is found to cause harmful side effects.
             </p>
 
-            <h2 class="text-danger mt-5">Different Types of Medicines :
+            <h2 className="text-danger mt-5">Different Types of Medicines :
             </h2>
 
             <p>Medicines act in a variety of ways. Some can cure an illness by killing or halting the spread of invading
@@ -64,35 +64,35 @@ export default function Medicine() {
                 body chemicals such as some hormones or vitamins. Medicines can even affect parts of the nervous system
                 that control a body process.</p>
             <p>Nearly everyone has taken an antibiotic. This type of medicine fights bacterial infections. Your doctor
-                may prescribe an antibiotic for things like <span class="text-info">strep throat or an ear
+                may prescribe an antibiotic for things like <span className="text-info">strep throat or an ear
                     infection</span>. Antibiotics work either by killing bacteria or halting their multiplication so
                 that the body's immune system can fight off the infection.</p>
             <p>Sometimes a part of the body can't make enough of a chemical. That can also make you sick. Someone with
                 insulin-dependent diabetes, for instance, has a pancreas that can't produce enough <span
-                    class="text-info">insulin</span> (a hormone that regulates glucose in the body). Some people have a
+                    className="text-info">insulin</span> (a hormone that regulates glucose in the body). Some people have a
                 low production of thyroid hormone, which helps control how the body uses energy. In each case, doctors
                 can prescribe medicines to replace the missing hormone.</p>
             <p>Some medicines treat symptoms but can't cure the illness that causes the symptoms. (A symptom is anything
                 you feel while you're sick, such as a cough or nausea.) So taking a lozenge may soothe a sore throat,
                 but it won't kill that nasty strep bacteria.</p>
             <p>Some medicines relieve pain. If you pull a muscle, your doctor might tell you to take ibuprofen or
-                acetaminophen. These <span class="text-info">pain relievers, or analgesics</span>, don't get rid of the
+                acetaminophen. These <span className="text-info">pain relievers, or analgesics</span>, don't get rid of the
                 source of the pain — your muscle will still be pulled. What they do is block the pathways that transmit
                 pain signals from the injured or irritated body part to the brain (in other words, they affect the way
                 the brain reads the pain signal) so that you don't hurt as much while your body recovers.</p>
             <p>As people get older, they sometimes develop chronic or long-term conditions. Medicines can help control
-                things like <span class="text-info">high blood pressure (hypertension) or high cholesterol</span>. These
+                things like <span className="text-info">high blood pressure (hypertension) or high cholesterol</span>. These
                 drugs don't cure the underlying problem, but they can help prevent some of its body-damaging effects
                 over time.</p>
 
 
             <p>Although some medicines require a prescription, some are available in stores. You can buy many medicines
-                for pain, fever, cough, or allergies without a <span class="text-info">prescription</span>. But just
+                for pain, fever, cough, or allergies without a <span className="text-info">prescription</span>. But just
                 because a medicine is available over-the-counter (OTC), that doesn't mean it's free of side effects.
                 Take OTC medicines with the same caution as those prescribed by a doctor.</p>
 
 
-            <h2 class="text-danger mt-5">Taking Medicines :</h2>
+            <h2 className="text-danger mt-5">Taking Medicines :</h2>
             <p>No matter what type of medicine your doctor prescribes, it's always important to be safe and follow some
                 basic rules :</p>
             <ul id="points">

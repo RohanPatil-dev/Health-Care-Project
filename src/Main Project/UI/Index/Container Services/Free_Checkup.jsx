@@ -47,24 +47,24 @@ export default function Free_Checkup() {
     {/* check-list  */}
     <div id="check-list">
         <div>
-          <img src="../Images/Services/blood.png" alt="doctor" class="grid-img" />
-          <p class="test">BLOOD TEST</p>
+          <img src="../Images/Services/blood.png" alt="doctor" className="grid-img" />
+          <p className="test">BLOOD TEST</p>
         </div>
         <div>
-          <img src="../Images/Services/sugar.jpeg" alt="patient" class="grid-img" />
-          <p class="test">SUGAR TEST</p>
+          <img src="../Images/Services/sugar.jpeg" alt="patient" className="grid-img" />
+          <p className="test">SUGAR TEST</p>
         </div>
         <div>
-          <img src="../Images/Services/urine.jpeg" alt="bed" class="grid-img" />
-          <p class="test">URINE TEST</p>
+          <img src="../Images/Services/urine.jpeg" alt="bed" className="grid-img" />
+          <p className="test">URINE TEST</p>
         </div>
         <div>
-          <img src="../Images/Services/thyroid.jpeg" alt="hospital" class="grid-img" />
-          <p class="test">THYROID TEST</p>
+          <img src="../Images/Services/thyroid.jpeg" alt="hospital" className="grid-img" />
+          <p className="test">THYROID TEST</p>
         </div>
         <div>
-            <img src="../Images/Services/x-ray.png" alt="hospital" class="grid-img" />
-            <p class="test">X-RAY TEST</p>
+            <img src="../Images/Services/x-ray.png" alt="hospital" className="grid-img" />
+            <p className="test">X-RAY TEST</p>
           </div>
       </div>
     </div>

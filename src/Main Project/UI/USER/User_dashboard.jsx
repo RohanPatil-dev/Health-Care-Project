@@ -10,19 +10,19 @@ export default function User_dashboard() {
             <Sidebar />
 
             <div id="user_dashboard">
-                <div id="container-grid" class="mt-3">
+                <div id="container-grid" className="mt-3">
                     <div>
-                        <img src="../../Images/User/clipboard.png" alt="" class="content" />
-                        <p class="names">Appointments</p>
+                        <img src="./Images/User/clipboard.png" alt="" className="content" />
+                        <p className="names">Appointments</p>
                     </div>
-                    <div class="totals">3</div>
+                    <div className="totals">3</div>
                 </div>
-                <div id="container-grid" class="mt-3">
+                <div id="container-grid" className="mt-3">
                     <div>
-                        <img src="../../Images/User/message.png" alt="" class="content" />
-                        <p class="names">Messages</p>
+                        <img src="./Images/User/message.png" alt="" className="content" />
+                        <p className="names">Messages</p>
                     </div>
-                    <div class="totals">1</div>
+                    <div className="totals">1</div>
                 </div>
             </div>
 

@@ -4,27 +4,27 @@ export default function Department_Modal() {
   return (
     <>
       <div
-        class="modal fade"
+        className="modal fade"
         id="exampleModal"
         tabindex="-1"
         role="dialog"
         aria-labelledby="exampleModalLabel"
         aria-hidden="true"
       >
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h3 class="modal-title" id="exampleModalLabel">Add staff</h3>
+        <div className="modal-dialog" role="document">
+          <div className="modal-content">
+            <div className="modal-header">
+              <h3 className="modal-title" id="exampleModalLabel">Add staff</h3>
               <button
                 type="button"
-                class="close"
+                className="close"
                 data-dismiss="modal"
                 aria-label="Close"
               >
                 <span aria-hidden="true">&times;</span>
               </button>
             </div>
-            <div class="modal-body">
+            <div className="modal-body">
               <div id="dep-add-img">
                 <label for="dep-img">Add Image : </label>
                 <img
@@ -55,22 +55,22 @@ export default function Department_Modal() {
                 </select>
               </div>
 
-              <div class="staff-label">
+              <div className="staff-label">
                 <label for="staff-input-text">Name :</label>
                 <input type="text" id="staff-input-text" placeholder="Enter your name....." />
               </div>
 
-              <div class="staff-label">
+              <div className="staff-label">
                 <label for="staff-input-email">Email :</label>
                 <input type="email" id="staff-input-email" placeholder="Enter your email....." />
               </div>
 
-              <div class="staff-label">
+              <div className="staff-label">
                 <label for="staff-input-age">Age :</label>
                 <input type="number" id="staff-input-age" placeholder="Enter your number....." />
               </div>
 
-              <div class="staff-label">
+              <div className="staff-label">
                 <label for="staff-input-phone">Phone :</label>
                 <input type="tel" id="staff-input-phone" placeholder="Enter your contact number....." />
               </div>
@@ -79,15 +79,15 @@ export default function Department_Modal() {
 
 
 
-            <div class="modal-footer">
+            <div className="modal-footer">
               <button
                 type="button"
-                class="btn btn-danger w-25"
+                className="btn btn-danger w-25"
                 data-dismiss="modal"
               >
                 Dismiss
               </button>
-              <button type="button" class="btn btn-primary w-25">Save</button>
+              <button type="button" className="btn btn-primary w-25">Save</button>
             </div>
           </div>
         </div>

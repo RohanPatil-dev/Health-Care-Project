@@ -21,12 +21,12 @@ export default function Total_Care() {
             and who provides total patient care in your area.</p>
 
 
-          <h1 class="text-danger mt-5">What is Total Patient Care?</h1>
+          <h1 className="text-danger mt-5">What is Total Patient Care?</h1>
 
           <p id="definition">Definition : Total patient care is a model of care designed around a registered nurse
             overseeing personal care to one patient during a specific period of time.</p>
 
-          <p class="text-center">“<span class="text-primary">Total patient care</span> and primary nursing are
+          <p className="text-center">“<span className="text-primary">Total patient care</span> and primary nursing are
             patient-oriented and rely on registered nurses (RNs) to deliver care.”</p>
 
 
@@ -38,7 +38,7 @@ export default function Total_Care() {
             health services. CNAs provide personal care and companionship services, such as transportation.Together, RNs and
             in-home CNA caregivers work to provide total patient services to clients in the comfort of their homes. </p>
 
-          <h1 class="text-danger mt-5">Types of Care : </h1>
+          <h1 className="text-danger mt-5">Types of Care : </h1>
           <ul id="points">
             <li>Total care.</li>
 
@@ -56,7 +56,7 @@ export default function Total_Care() {
             <li>Respite care.</li>
           </ul>
 
-          <h1 class="text-danger mt-5">The Benefits of Total Patient Care Nursing</h1>
+          <h1 className="text-danger mt-5">The Benefits of Total Patient Care Nursing</h1>
           <p>In general, the greatest benefit of total patient care is the one-on-one attention and monitoring a skilled
             nursing professional provides. The drawback to total patient care is the price. A dedicated nurse providing
             medical assistance is more expensive than a professional caregiver who is hired for companionship services.

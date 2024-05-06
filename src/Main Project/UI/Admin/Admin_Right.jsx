@@ -15,47 +15,47 @@ export default function Admin_Right() {
                 <Admin_TitleBar img={"./Images/Navbar/Hospital.png"} title={"Dashboard"} subName={"Dashboard Features"} />
 
                 <div id="dashboard_container">
-                    <div id="container-grid" class="mt-3">
-                        <div><img src="./Images/Admin/department.png" alt="" class="content" />
-                            <p class="names">Total Department</p>
+                    <div id="container-grid" className="mt-3">
+                        <div><img src="./Images/Admin/department.png" alt="" className="content" />
+                            <p className="names">Total Department</p>
                         </div>
-                        <div class="totals">3</div>
+                        <div className="totals">3</div>
                     </div>
-                    <div id="container-grid" class="mt-3">
-                        <div><img src="./Images/Admin/beds.png" alt="" class="content" />
-                            <p class="names">Total Beds</p>
+                    <div id="container-grid" className="mt-3">
+                        <div><img src="./Images/Admin/beds.png" alt="" className="content" />
+                            <p className="names">Total Beds</p>
                         </div>
-                        <div class="totals">1</div>
+                        <div className="totals">1</div>
                     </div>
-                    <div id="container-grid" class="mt-3">
-                        <div><img src="./Images/Admin/first-aid.png" alt="" class="content" />
-                            <p class="names">Total Treatments</p>
+                    <div id="container-grid" className="mt-3">
+                        <div><img src="./Images/Admin/first-aid.png" alt="" className="content" />
+                            <p className="names">Total Treatments</p>
                         </div>
-                        <div class="totals">1</div>
+                        <div className="totals">1</div>
                     </div>
-                    <div id="container-grid" class="mt-3">
-                        <div><img src="./Images/Admin/medicines.png" alt="" class="content" />
-                            <p class="names">Total Medicines</p>
+                    <div id="container-grid" className="mt-3">
+                        <div><img src="./Images/Admin/medicines.png" alt="" className="content" />
+                            <p className="names">Total Medicines</p>
                         </div>
-                        <div class="totals">1</div>
+                        <div className="totals">1</div>
                     </div>
-                    <div id="container-grid" class="mt-3">
-                        <div><img src="./Images/Admin/doctor.png" alt="" class="content" />
-                            <p class="names">Total Doctors</p>
+                    <div id="container-grid" className="mt-3">
+                        <div><img src="./Images/Admin/doctor.png" alt="" className="content" />
+                            <p className="names">Total Doctors</p>
                         </div>
-                        <div class="totals">2</div>
+                        <div className="totals">2</div>
                     </div>
-                    <div id="container-grid" class="mt-3">
-                        <div><img src="./Images/Admin/user.png" alt="" class="content" />
-                            <p class="names">Total Patients</p>
+                    <div id="container-grid" className="mt-3">
+                        <div><img src="./Images/Admin/user.png" alt="" className="content" />
+                            <p className="names">Total Patients</p>
                         </div>
-                        <div class="totals">5</div>
+                        <div className="totals">5</div>
                     </div>
-                    <div id="container-grid" class="mt-3">
-                        <div><img src="./Images/Admin/board.png" alt="" class="content" />
-                            <p class="names">Total Appointments</p>
+                    <div id="container-grid" className="mt-3">
+                        <div><img src="./Images/Admin/board.png" alt="" className="content" />
+                            <p className="names">Total Appointments</p>
                         </div>
-                        <div class="totals">17</div>
+                        <div className="totals">17</div>
                     </div>
                 </div>
                 <Footer />

@@ -15,10 +15,10 @@ export default function Patient_Right() {
         <Admin_TitleBar title={"Patient Module"} subName={"Patients list"} />
 
         <div id="table-container">
-        <div id="tables" class="text-center">
-          <table class="table bg-dark text-light">
+        <div id="tables" className="text-center">
+          <table className="table bg-dark text-light">
             <thead>
-              <tr class="ids">
+              <tr className="ids">
                 <th scope="col">Ward name</th>
                 <th scope="col">Bed Number</th>
                 <th scope="col">Profile</th>
@@ -34,13 +34,13 @@ export default function Patient_Right() {
                 return (
                   <>
                     <tr key={data.id}>
-                      <td scope="row" class="ids">1</td>
+                      <td scope="row" className="ids">1</td>
                       <td>{data.ward_number}</td>
-                      <td><img src={data.profile} alt="" class="td-image" /></td>
-                      <td class="td-font">{data.name}</td>
-                      <td class="td-font">{data.contact}</td>
-                      <td class="status"> {data.status === "Active" ? <p>{data.status}</p> : <p style={{ backgroundColor: "red" }}>{data.status}</p>}</td>
-                      <td><button class="trash"><img src="./Images/Admin/trash.png" alt="" /></button></td>
+                      <td><img src={data.profile} alt="" className="td-image" /></td>
+                      <td className="td-font">{data.name}</td>
+                      <td className="td-font">{data.contact}</td>
+                      <td className="status"> {data.status === "Active" ? <p>{data.status}</p> : <p style={{ backgroundColor: "red" }}>{data.status}</p>}</td>
+                      <td><button className="trash"><img src="./Images/Admin/trash.png" alt="" /></button></td>
                     </tr>
                   </>
                 )
