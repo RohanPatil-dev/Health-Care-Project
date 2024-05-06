@@ -9,6 +9,105 @@
     width: 40rem;
     position: absolute;
   }
+
+  
+/* appointment doctor selection */
+
+#add_appointment {
+  background-color: rgba(153, 153, 153, 0.425);
+  margin-top: 50px;
+  margin-bottom: 40px;
+  width: 80%;
+  margin-left: 60px;
+  outline-width: 20px;
+  outline-color: rgb(209, 49, 124);
+  outline-style: double;
+  padding: 30px;
+  border-radius: 10%;
+}
+
+#directInfo_added {
+  display: grid;
+  grid-template-columns: auto;
+  gap: 10px 10px;
+}
+
+#directInfo_added div {
+  grid-column-start: 1;
+  grid-column-end: 1;
+}
+
+#directInfo_added div img {
+  margin-left: 35%;
+  margin-top: 30px;
+}
+
+#directInfo_added h2 {
+  margin-left: 5rem;
+}
+
+#directInfo_added p {
+  margin-top: 30px;
+  margin-left: 1rem;
+  width: 500px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+#form-grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 20px 20px;
+  padding: 30px;
+  justify-content: space-evenly;
+}
+
+.select {
+  width: 12.6rem;
+  border: 1px solid gray;
+  margin-left: 5rem;
+}
+
+.select input[type="text"] {
+  position: absolute;
+  padding: 7px;
+  cursor: pointer;
+}
+
+.select input[type="text"]::placeholder {
+  color: black;
+  font-size: 18px;
+}
+
+
+#datetime-local {
+  padding: 7px;
+  margin-right: 4rem;
+}
+
+.custom-select:focus,
+#datetime-local:focus {
+  outline: none;
+  border: none;
+  box-shadow: 0px 0px 10px 5px aqua;
+}
+
+#submit {
+  width: 70%;
+  border-radius: 20%;
+  border: none;
+  margin-left: 12rem;
+  margin-top: 3rem;
+  font-size: 20px;
+  color: white;
+  font-style: italic;
+  font-weight: 600;
+}
+
+#submit:hover {
+  box-shadow: 0px 0px 10px 5px aqua;
+}
+
   
 
   /* settings */
@@ -59,7 +158,7 @@
   }
 
   #profile-image label {
-    margin-left: 50px;
+    margin-left: 40px;
     font-size: 25px;
     color: rgb(255, 0, 183);
     font-weight: 600;
@@ -74,7 +173,7 @@
 
   #profile-image input[type="file"] {
     margin-top: 30px;
-    margin-left: 0px;
+    margin-left: 15px;
     padding: 5px;
     color: #ff00b7;
     border: 2px solid gray;
