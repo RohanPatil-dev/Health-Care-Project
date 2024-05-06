@@ -10,16 +10,18 @@
   position: relative;
   left: 0;
   display: none;
-  background-image: linear-gradient(to bottom right,
-      rgb(107, 51, 160),
-      rgb(155, 85, 85));
- 
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(107, 51, 160),
+    rgb(155, 85, 85)
+  );
+
   width: 200px;
   z-index: 1;
   overflow: auto;
 }
 
-#grid-user::-webkit-scrollbar{
+#grid-user::-webkit-scrollbar {
   width: 10px;
 }
 
@@ -52,22 +54,22 @@
   box-shadow: 0px 0px 10px 5px rgb(232, 237, 237);
 }
 
-#grid-user>div {
+#grid-user > div {
   padding: 10px;
   text-align: center;
 }
 
-#elements>div {
+#elements > div {
   margin-top: 10px;
   font-size: 15px;
 }
 
-#elements>div a {
+#elements > div a {
   color: white;
   text-decoration: none;
 }
 
-#elements>div a:hover {
+#elements > div a:hover {
   color: black;
   font-weight: 600;
   text-decoration: none;
@@ -110,7 +112,7 @@
   box-shadow: 0px 0px 20px 0px gray;
 }
 
-#Dashboard_titles>div {
+#Dashboard_titles > div {
   margin-left: 30px;
   font-size: 20px;
   height: 20px;
@@ -141,7 +143,7 @@
   height: 500px;
 }
 
-#dashboard_container>div {
+#dashboard_container > div {
   background-color: rgb(122, 215, 160);
   padding: 20px;
   height: 180px;
@@ -174,18 +176,18 @@
   font-style: italic;
 }
 
-
-
 /* for patients */
 #grid-patient {
-  background-image: linear-gradient(to bottom right,
-      rgb(107, 51, 160),
-      rgb(155, 85, 85));
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(107, 51, 160),
+    rgb(155, 85, 85)
+  );
   height: 100%;
   width: 200px;
 }
 
-#grid-patient>div {
+#grid-patient > div {
   padding: 10px;
   text-align: center;
 }
@@ -199,7 +201,7 @@
   box-shadow: 0px 0px 20px 0px gray;
 }
 
-#patient_titles>div {
+#patient_titles > div {
   margin-left: 30px;
   font-size: 20px;
   height: 20px;
@@ -226,6 +228,15 @@
   overflow: auto;
 }
 
+#tables td {
+  position: relative;
+  top: 4px;
+}
+
+
+#tables td p {
+  width: 100px;
+}
 
 .status {
   width: 100px;
@@ -306,7 +317,6 @@
   background-color: red;
 }
 
-
 /* appointment doctor selection */
 
 #add_appointment {
@@ -373,7 +383,6 @@
   font-size: 18px;
 }
 
-
 #datetime-local {
   padding: 7px;
   margin-right: 9rem;
@@ -402,9 +411,8 @@
   box-shadow: 0px 0px 10px 5px aqua;
 }
 
-
 /* department */
-#department{
+#department {
   display: grid;
   grid-template-columns: auto auto auto auto;
   padding: 20px;
@@ -413,7 +421,7 @@
   overflow: auto;
 }
 
-#department > div{
+#department > div {
   text-align: center;
   background-color: white;
   padding: 10px;
@@ -423,7 +431,7 @@
   height: 350px;
 }
 
-.department-doc img{
+.department-doc img {
   height: 200px;
   width: 100%;
   transition-property: transform;
@@ -431,11 +439,11 @@
   transition-timing-function: ease;
 }
 
-.department-doc img:hover{
-    transform: scale(1.2);
+.department-doc img:hover {
+  transform: scale(1.2);
 }
 
-.department-doc p{
+.department-doc p {
   color: red;
   font-weight: 600;
   font-size: 30px;
@@ -443,123 +451,129 @@
   margin-top: 20px;
 }
 
-.department-doc button{
+.department-doc button {
   padding: 5px;
   border: none;
   border-radius: 10px;
   outline-width: 5px;
   outline-color: rgba(103, 202, 96, 0.758);
   outline-style: solid;
-  background-image: linear-gradient(to top right,rgb(150, 49, 154),rgb(75, 184, 201));
+  background-image: linear-gradient(
+    to top right,
+    rgb(150, 49, 154),
+    rgb(75, 184, 201)
+  );
   color: white;
   font-size: 20px;
 }
 
-.department-doc button:hover{
+.department-doc button:hover {
   outline-color: yellow;
   outline-style: solid;
-  background-image: linear-gradient(to right top,rgb(0, 255, 102),rgb(25, 0, 255));
+  background-image: linear-gradient(
+    to right top,
+    rgb(0, 255, 102),
+    rgb(25, 0, 255)
+  );
 }
-
-
 
 /* department staff */
 
-.modal-header{
+.modal-header {
   margin-left: 170px;
 }
 
-.modal-title{
+.modal-title {
   font-weight: 600;
   font-style: italic;
   color: rgb(153, 51, 143);
 }
 
-.btn{
+.btn {
   margin-right: 100px;
 }
 
-#dep-add-img{
+#dep-add-img {
   margin-left: 100px;
 }
 
-#dep-staff{
+#dep-staff {
   padding: 3px;
 }
 
-#dep-staff,#dep-staff option{
+#dep-staff,
+#dep-staff option {
   color: #0077ff;
   font-style: italic;
   font-weight: bold;
   background-color: rgb(108, 226, 151);
 }
 
-
-#dep-add-img label{
+#dep-add-img label {
   font-size: 20px;
   color: rebeccapurple;
   font-weight: 600;
   font-style: italic;
 }
 
-#dep-img{
+#dep-img {
   height: 70px;
   border-radius: 50%;
   margin-left: 50px;
   color: blue;
 }
 
-#staff-container{
-   margin-top: 30px;
-   padding: 10px;
-   margin-left: 30px;
-   margin-bottom: 30px;
+#staff-container {
+  margin-top: 30px;
+  padding: 10px;
+  margin-left: 30px;
+  margin-bottom: 30px;
 }
 
-#staff{
+#staff {
   padding: 10px;
   border: none;
   border-radius: 20px;
   background-color: rgb(0, 255, 4);
-  color:navy;
+  color: navy;
   font-weight: 600;
   box-shadow: 0px 5px 0px 5px gray;
 }
 
-#staff:active{
+#staff:active {
   border: none;
   outline: none;
   box-shadow: 0px 0px 0px 5px gray;
 }
 
-#staff:focus{
+#staff:focus {
   outline-color: rgb(0, 255, 4);
 }
 
-#dep-name{
+#dep-name {
   margin-left: 30px;
   margin-top: 30px;
 }
 
-#dep-name label{
+#dep-name label {
   font-size: 20px;
   font-weight: 600;
   font-style: oblique;
   color: rebeccapurple;
 }
 
-#dep-name select{
+#dep-name select {
   width: 150px;
   margin-left: 10px;
 }
 
-#dep-name select:focus{
+#dep-name select:focus {
   width: 150px;
   box-shadow: 0px 0px 5px 3px aqua;
   outline-color: white;
 }
 
-#dep-img-file{
+#dep-img-file {
   margin-top: 10px;
   border: 2px solid gray;
   color: rebeccapurple;
@@ -567,50 +581,52 @@
   font-style: italic;
 }
 
-.staff-label{
+.staff-label {
   margin-left: 100px;
   margin-top: 10px;
 }
 
-.staff-label input::placeholder{
+.staff-label input::placeholder {
   color: #ff0000;
 }
 
-.staff-label label{
+.staff-label label {
   font-size: 20px;
   color: rebeccapurple;
   font-weight: 600;
   font-style: italic;
 }
 
-.staff-label input{
+.staff-label input {
   color: #0077ff;
   font-style: oblique;
   font-weight: 600;
   width: 240px;
 }
 
-#staff-input-text{
+#staff-input-text {
   margin-left: 5px;
 }
 
-#staff-input-email{
+#staff-input-email {
   margin-left: 10px;
 }
 
-#staff-input-age{
+#staff-input-age {
   margin-left: 20px;
 }
 
-#staff-input-text:focus,#staff-input-email:focus,#staff-input-age:focus,#staff-input-phone:focus{
+#staff-input-text:focus,
+#staff-input-email:focus,
+#staff-input-age:focus,
+#staff-input-phone:focus {
   box-shadow: 0px 0px 5px 3px aqua;
   outline-color: white;
 }
 
-
 /* settings */
 
-#setting-heading{
+#setting-heading {
   font-style: italic;
   font-size: 50px;
   font-weight: bold;
@@ -620,7 +636,7 @@
   text-shadow: 5px 10px 10px gray;
 }
 
-#settings{
+#settings {
   margin-top: 20px;
   margin-left: 170px;
   margin-bottom: 30px;
@@ -634,55 +650,51 @@
   width: 60rem;
 }
 
-/*  background-color: rgba(57, 55, 55, 0.929); use this to change background color     */ 
+/*  background-color: rgba(57, 55, 55, 0.929); use this to change background color     */
 
-
-#setting-grid{
+#setting-grid {
   display: grid;
-  grid-template-columns: auto auto ;
+  grid-template-columns: auto auto;
   gap: 20px 20px;
   margin-top: 30px;
 }
 
 .setting-form label {
-    font-size: 20px;
+  font-size: 20px;
   font-weight: bold;
   font-style: oblique;
-  color:rgb(93, 0, 139);
+  color: rgb(93, 0, 139);
 }
 
-.setting-form::placeholder{
-    color: rgb(43, 0, 255);
+.setting-form::placeholder {
+  color: rgb(43, 0, 255);
 }
 
-
-#profile-image label{
-    margin-left: 250px;
-    font-size: 25px;
-    color: rgb(255, 0, 183);
-    font-weight: 600;
+#profile-image label {
+  margin-left: 250px;
+  font-size: 25px;
+  color: rgb(255, 0, 183);
+  font-weight: 600;
 }
 
-#profile-image img{
-    border-radius: 20px;
-    margin-left: 40px;
-    margin-top: 20px;
-    border: 2px solid black;
+#profile-image img {
+  border-radius: 20px;
+  margin-left: 40px;
+  margin-top: 20px;
+  border: 2px solid black;
 }
 
-#profile-image input[type=file]{
+#profile-image input[type="file"] {
   margin-top: 30px;
   margin-left: 220px;
-    padding: 5px;
-    color: #ff00b7;
-    border: 2px solid gray;
-    border-radius: 5px;
-    width: 25rem;
-
+  padding: 5px;
+  color: #ff00b7;
+  border: 2px solid gray;
+  border-radius: 5px;
+  width: 25rem;
 }
 
-
-#add{
+#add {
   width: 300px;
   font-size: 20px;
   margin-left: 270px;

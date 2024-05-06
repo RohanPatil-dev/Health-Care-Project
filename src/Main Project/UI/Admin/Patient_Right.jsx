@@ -14,6 +14,7 @@ export default function Patient_Right() {
         <Admin_Nav />
         <Admin_TitleBar title={"Patient Module"} subName={"Patients list"} />
 
+        <div id="table-container">
         <div id="tables" class="text-center">
           <table class="table bg-dark text-light">
             <thead>
@@ -33,7 +34,7 @@ export default function Patient_Right() {
                 return (
                   <>
                     <tr key={data.id}>
-                      <th scope="row" class="ids">1</th>
+                      <td scope="row" class="ids">1</td>
                       <td>{data.ward_number}</td>
                       <td><img src={data.profile} alt="" class="td-image" /></td>
                       <td class="td-font">{data.name}</td>
@@ -45,18 +46,9 @@ export default function Patient_Right() {
                 )
               })}
 
-              <tr>
-                <th scope="row" class="ids">1</th>
-                <td>1</td>
-                <td><img src="../../Images/doctor1.png" alt="" class="td-image" /></td>
-                <td class="td-font">Rohan Patil</td>
-                <td class="td-font">9274949249</td>
-                <td class="status"><p>Active</p></td>
-                <td><button class="trash"><img src="../../Images/Admin/trash.png" alt="" /></button></td>
-              </tr>
-
             </tbody>
           </table>
+        </div>
         </div>
 
         <Footer />
