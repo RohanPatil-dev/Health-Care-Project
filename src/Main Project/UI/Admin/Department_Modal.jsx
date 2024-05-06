@@ -28,7 +28,7 @@ export default function Department_Modal() {
               <div id="dep-add-img">
                 <label for="dep-img">Add Image : </label>
                 <img
-                  src="../../Images/doctor1.png"
+                  src="./Images/doctor1.png"
                   id="dep-img"
                   height="60px"
                   alt=""
@@ -56,22 +56,22 @@ export default function Department_Modal() {
               </div>
 
               <div class="staff-label">
-                <label for="">Name :</label>
+                <label for="staff-input-text">Name :</label>
                 <input type="text" id="staff-input-text" placeholder="Enter your name....." />
               </div>
 
               <div class="staff-label">
-                <label for="">Email :</label>
+                <label for="staff-input-email">Email :</label>
                 <input type="email" id="staff-input-email" placeholder="Enter your email....." />
               </div>
 
               <div class="staff-label">
-                <label for="">Age :</label>
+                <label for="staff-input-age">Age :</label>
                 <input type="number" id="staff-input-age" placeholder="Enter your number....." />
               </div>
 
               <div class="staff-label">
-                <label for="">Phone :</label>
+                <label for="staff-input-phone">Phone :</label>
                 <input type="tel" id="staff-input-phone" placeholder="Enter your contact number....." />
               </div>
 

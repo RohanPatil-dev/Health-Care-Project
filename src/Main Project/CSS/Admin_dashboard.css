@@ -483,14 +483,30 @@
   margin-left: 100px;
 }
 
+#dep-staff{
+  padding: 3px;
+}
+
+#dep-staff,#dep-staff option{
+  color: #0077ff;
+  font-style: italic;
+  font-weight: bold;
+  background-color: rgb(108, 226, 151);
+}
+
+
 #dep-add-img label{
   font-size: 20px;
+  color: rebeccapurple;
+  font-weight: 600;
+  font-style: italic;
 }
 
 #dep-img{
   height: 70px;
   border-radius: 50%;
   margin-left: 50px;
+  color: blue;
 }
 
 #staff-container{
@@ -527,6 +543,9 @@
 
 #dep-name label{
   font-size: 20px;
+  font-weight: 600;
+  font-style: oblique;
+  color: rebeccapurple;
 }
 
 #dep-name select{
@@ -543,6 +562,9 @@
 #dep-img-file{
   margin-top: 10px;
   border: 2px solid gray;
+  color: rebeccapurple;
+  font-weight: 600;
+  font-style: italic;
 }
 
 .staff-label{
@@ -550,8 +572,22 @@
   margin-top: 10px;
 }
 
+.staff-label input::placeholder{
+  color: #ff0000;
+}
+
 .staff-label label{
   font-size: 20px;
+  color: rebeccapurple;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.staff-label input{
+  color: #0077ff;
+  font-style: oblique;
+  font-weight: 600;
+  width: 240px;
 }
 
 #staff-input-text{

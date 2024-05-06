@@ -10,128 +10,188 @@
     position: absolute;
   }
 
+
+
+
+  /* department */
+  #department {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 20px;
+    gap: 10px 10px;
+    height: 500px;
+    overflow: auto;
+  }
+
+  #department>div {
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border: 5px inset rgb(13, 214, 191);
+    overflow: hidden;
+    height: 350px;
+  }
+
+  .department-doc img {
+    height: 200px;
+    width: 100%;
+    transition-property: transform;
+    transition-duration: 2s;
+    transition-timing-function: ease;
+  }
+
+  .department-doc img:hover {
+    transform: scale(1.2);
+  }
+
+  .department-doc p {
+    color: red;
+    font-weight: 600;
+    font-size: 30px;
+    font-style: italic;
+    margin-top: 20px;
+  }
+
+  .department-doc button {
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+    outline-width: 5px;
+    outline-color: rgba(103, 202, 96, 0.758);
+    outline-style: solid;
+    background-image: linear-gradient(to top right, rgb(150, 49, 154), rgb(75, 184, 201));
+    color: white;
+    font-size: 20px;
+  }
+
+  .department-doc button:hover {
+    outline-color: yellow;
+    outline-style: solid;
+    background-image: linear-gradient(to right top, rgb(0, 255, 102), rgb(25, 0, 255));
+  }
+
+
   /* admin module */
-/* appointment */
+  .appointment_id {
+    font-size: 30px;
+    width: 300px;
+  }
 
-.appointment_id {
-  font-size: 30px;
-  width: 300px;
-}
+  .file {
+    background-color: rgb(30, 219, 30);
+    border: none;
+    border-radius: 20%;
+    cursor: pointer;
+  }
 
-.file {
-  background-color: rgb(30, 219, 30);
-  border: none;
-  border-radius: 20%;
-  cursor: pointer;
-}
+  .file img {
+    border: none;
+    height: 40px;
+  }
 
-.file img {
-  border: none;
-  height: 40px;
-}
+  .file:hover {
+    background-color: red;
+  }
 
-.file:hover {
-  background-color: red;
-}
-  
-/* appointment doctor selection */
+  /* appointment doctor selection */
 
-#add_appointment {
-  background-color: rgba(153, 153, 153, 0.425);
-  margin-top: 50px;
-  margin-bottom: 40px;
-  width: 80%;
-  margin-left: 60px;
-  outline-width: 20px;
-  outline-color: rgb(209, 49, 124);
-  outline-style: double;
-  padding: 30px;
-  border-radius: 10%;
-}
+  #add_appointment {
+    background-color: rgba(153, 153, 153, 0.425);
+    margin-top: 50px;
+    margin-bottom: 40px;
+    width: 80%;
+    margin-left: 60px;
+    outline-width: 20px;
+    outline-color: rgb(209, 49, 124);
+    outline-style: double;
+    padding: 30px;
+    border-radius: 10%;
+  }
 
-#directInfo_added {
-  display: grid;
-  grid-template-columns: auto;
-  gap: 10px 10px;
-}
+  #directInfo_added {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 10px 10px;
+  }
 
-#directInfo_added div {
-  grid-column-start: 1;
-  grid-column-end: 1;
-}
+  #directInfo_added div {
+    grid-column-start: 1;
+    grid-column-end: 1;
+  }
 
-#directInfo_added div img {
-  margin-left: 35%;
-  margin-top: 30px;
-}
+  #directInfo_added div img {
+    margin-left: 35%;
+    margin-top: 30px;
+  }
 
-#directInfo_added h2 {
-  margin-left: 5rem;
-}
+  #directInfo_added h2 {
+    margin-left: 5rem;
+  }
 
-#directInfo_added p {
-  margin-top: 30px;
-  margin-left: 1rem;
-  width: 500px;
-  font-size: 20px;
-  font-weight: 600;
-}
+  #directInfo_added p {
+    margin-top: 30px;
+    margin-left: 1rem;
+    width: 500px;
+    font-size: 20px;
+    font-weight: 600;
+  }
 
-#form-grid {
-  display: grid;
-  grid-template-columns: auto auto;
-  gap: 20px 20px;
-  padding: 30px;
-  justify-content: space-evenly;
-}
+  #form-grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px 20px;
+    padding: 30px;
+    justify-content: space-evenly;
+  }
 
-.select {
-  width: 12.6rem;
-  border: 1px solid gray;
-  margin-left: 5rem;
-}
+  .select {
+    width: 12.6rem;
+    border: 1px solid gray;
+    margin-left: 5rem;
+  }
 
-.select input[type="text"] {
-  position: absolute;
-  padding: 7px;
-  cursor: pointer;
-}
+  .select input[type="text"] {
+    position: absolute;
+    padding: 7px;
+    cursor: pointer;
+  }
 
-.select input[type="text"]::placeholder {
-  color: black;
-  font-size: 18px;
-}
+  .select input[type="text"]::placeholder {
+    color: black;
+    font-size: 18px;
+  }
 
 
-#datetime-local {
-  padding: 7px;
-  margin-right: 4rem;
-}
+  #datetime-local {
+    padding: 7px;
+    margin-right: 4rem;
+  }
 
-.custom-select:focus,
-#datetime-local:focus {
-  outline: none;
-  border: none;
-  box-shadow: 0px 0px 10px 5px aqua;
-}
+  .custom-select:focus,
+  #datetime-local:focus {
+    outline: none;
+    border: none;
+    box-shadow: 0px 0px 10px 5px aqua;
+  }
 
-#submit {
-  width: 70%;
-  border-radius: 20%;
-  border: none;
-  margin-left: 12rem;
-  margin-top: 3rem;
-  font-size: 20px;
-  color: white;
-  font-style: italic;
-  font-weight: 600;
-}
+  #submit {
+    width: 70%;
+    border-radius: 20%;
+    border: none;
+    margin-left: 12rem;
+    margin-top: 3rem;
+    font-size: 20px;
+    color: white;
+    font-style: italic;
+    font-weight: 600;
+  }
 
-#submit:hover {
-  box-shadow: 0px 0px 10px 5px aqua;
-}
+  #submit:hover {
+    box-shadow: 0px 0px 10px 5px aqua;
+  }
 
-  
+
 
   /* settings */
 
@@ -215,18 +275,16 @@
   }
 
   /* footer */
-#footer {
-  margin-top: 30px;
-  width: 100%;
-  text-align: center;
-  background-image: linear-gradient(
-    to top right,
-    rgb(165, 59, 145),
-    rgb(51, 43, 167)
-  );
-  padding: 10px;
-  font-size: 20px;
-  font-weight: 600;
-}
+  #footer {
+    margin-top: 30px;
+    width: 100%;
+    text-align: center;
+    background-image: linear-gradient(to top right,
+        rgb(165, 59, 145),
+        rgb(51, 43, 167));
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 600;
+  }
 
 }
