@@ -161,12 +161,6 @@
     font-size: 18px;
   }
 
-  #bed{
-    width: 230px;
-    position: relative;
-    bottom: 30px;
-  }
-
   #datetime-local {
     padding: 7px;
     margin-right: 4rem;

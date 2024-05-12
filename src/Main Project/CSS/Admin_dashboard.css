@@ -383,8 +383,8 @@
   padding: 7px;
 }
 
-.custom-select,
-#datetime-local,#bed {
+.selected,
+#datetime-local {
   height: 50px;
 }
 
