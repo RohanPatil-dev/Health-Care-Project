@@ -271,6 +271,15 @@ body {
 
 /* doctor check up  */
 
+.doc_container h1{
+   font-weight: 600;
+   font-style: italic;
+   color: red;
+   text-align: center;
+   text-shadow: 5px 2px 5px yellow;
+   margin-top: 30px;
+}
+
 .doc_container{
   border: 10px double darkmagenta;
   margin-top: 50px;
@@ -304,6 +313,10 @@ body {
   margin-left: 380px;
   margin-bottom: 20px;
   width: 300px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  font-style: oblique;
 }
 
 .doc_checkup div label,#doc_textarea label{

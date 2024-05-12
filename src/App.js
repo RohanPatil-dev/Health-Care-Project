@@ -40,6 +40,7 @@ import Messages from "./Main Project/UI/USER/Messages";
 import User_settings from "./Main Project/UI/USER/User_settings";
 import User_Apointment from "./Main Project/UI/USER/User_Apointment";
 import Doctor_checkup from "./Main Project/UI/Doctor/Doctor_checkup";
+import User_visit from "./Main Project/UI/USER/User_visit";
 
 
 function App() {
@@ -100,6 +101,7 @@ function App() {
           <Route path="/user_messages" element={<Messages/>}/>
           <Route path="/user_settings" element={<User_settings/>}/>
           <Route path="/user_appointment" element={<User_Apointment/>}/>
+          <Route path="/User_visits" element={<User_visit/>}/>
       </Routes>
     </BrowserRouter>
 

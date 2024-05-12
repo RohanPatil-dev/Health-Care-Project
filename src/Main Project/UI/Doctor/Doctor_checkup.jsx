@@ -9,7 +9,7 @@ export default function Doctor_checkup() {
             <Doctor_Nav />
             <div>
                 <div className="container doc_container">
-
+             <h1>Doctor's Analysis and Prescriptions</h1>
                     <form action="" method="post">
                         <div className="doc_checkup">
                             <div class="form-group">
@@ -35,6 +35,11 @@ export default function Doctor_checkup() {
                                     <option value="Emergency">Emergency</option>
                                     <option value="ICU">ICU</option>
                                 </select>
+                            </div>
+
+                            <div className="form-group">
+                                <label htmlFor="beds">Select Room Number</label>
+                                <input type="number" className="form-control" id="beds" maxLength={1} minLength={100} placeholder="Select Room" />
                             </div>
 
                             <div className="form-group">
