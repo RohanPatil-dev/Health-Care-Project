@@ -10,11 +10,9 @@
   position: relative;
   left: 0;
   display: none;
-  background-image: linear-gradient(
-    to bottom right,
-    rgb(107, 51, 160),
-    rgb(155, 85, 85)
-  );
+  background-image: linear-gradient(to bottom right,
+      rgb(107, 51, 160),
+      rgb(155, 85, 85));
 
   width: 200px;
   z-index: 1;
@@ -32,6 +30,7 @@
   font-weight: 600;
   text-shadow: 0px 0px 10px white;
 }
+
 #admin_name {
   border: 2px solid black;
   margin-top: 20px;
@@ -54,22 +53,22 @@
   box-shadow: 0px 0px 10px 5px rgb(232, 237, 237);
 }
 
-#grid-user > div {
+#grid-user>div {
   padding: 10px;
   text-align: center;
 }
 
-#elements > div {
+#elements>div {
   margin-top: 10px;
   font-size: 15px;
 }
 
-#elements > div a {
+#elements>div a {
   color: white;
   text-decoration: none;
 }
 
-#elements > div a:hover {
+#elements>div a:hover {
   color: black;
   font-weight: 600;
   text-decoration: none;
@@ -112,7 +111,7 @@
   box-shadow: 0px 0px 20px 0px gray;
 }
 
-#Dashboard_titles > div {
+#Dashboard_titles>div {
   margin-left: 30px;
   font-size: 20px;
   height: 20px;
@@ -143,7 +142,7 @@
   height: 500px;
 }
 
-#dashboard_container > div {
+#dashboard_container>div {
   background-color: rgb(122, 215, 160);
   padding: 20px;
   height: 180px;
@@ -178,16 +177,14 @@
 
 /* for patients */
 #grid-patient {
-  background-image: linear-gradient(
-    to bottom right,
-    rgb(107, 51, 160),
-    rgb(155, 85, 85)
-  );
+  background-image: linear-gradient(to bottom right,
+      rgb(107, 51, 160),
+      rgb(155, 85, 85));
   height: 100%;
   width: 200px;
 }
 
-#grid-patient > div {
+#grid-patient>div {
   padding: 10px;
   text-align: center;
 }
@@ -201,7 +198,7 @@
   box-shadow: 0px 0px 20px 0px gray;
 }
 
-#patient_titles > div {
+#patient_titles>div {
   margin-left: 30px;
   font-size: 20px;
   height: 20px;
@@ -344,7 +341,7 @@
 }
 
 #directInfo_added div img {
-  margin-left: 40%;
+  margin-left: 36rem;
 }
 
 #directInfo_added h2 {
@@ -363,14 +360,13 @@
   display: grid;
   grid-template-columns: auto auto;
   padding: 30px;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 
 .select {
   width: 12.6rem;
-  border: 1px solid gray;
-  margin-left: 5rem;
 }
+
 
 .select input[type="text"] {
   position: absolute;
@@ -385,21 +381,40 @@
 
 #datetime-local {
   padding: 7px;
-  margin-right: 9rem;
 }
 
-.custom-select:focus,
-#datetime-local:focus {
+.custom-select,
+#datetime-local,#bed {
+  height: 50px;
+}
+
+.selected:focus,
+#datetime-local:focus{
   outline: none;
   border: none;
   box-shadow: 0px 0px 10px 5px aqua;
 }
 
+.textArea {
+  width: 600px;
+  margin-left: 22rem;
+}
+
+.textArea label{
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.textArea textarea {
+  height: 200px;
+  resize: none;
+}
+
 #submit {
-  width: 70%;
+  width: 200px;
   border-radius: 20%;
   border: none;
-  margin-left: 15rem;
+  margin-left: 34rem;
   margin-top: 3rem;
   font-size: 20px;
   color: white;
@@ -421,7 +436,7 @@
   overflow: auto;
 }
 
-#department > div {
+#department>div {
   text-align: center;
   background-color: white;
   padding: 10px;
@@ -458,11 +473,9 @@
   outline-width: 5px;
   outline-color: rgba(103, 202, 96, 0.758);
   outline-style: solid;
-  background-image: linear-gradient(
-    to top right,
-    rgb(150, 49, 154),
-    rgb(75, 184, 201)
-  );
+  background-image: linear-gradient(to top right,
+      rgb(150, 49, 154),
+      rgb(75, 184, 201));
   color: white;
   font-size: 20px;
 }
@@ -470,11 +483,9 @@
 .department-doc button:hover {
   outline-color: yellow;
   outline-style: solid;
-  background-image: linear-gradient(
-    to right top,
-    rgb(0, 255, 102),
-    rgb(25, 0, 255)
-  );
+  background-image: linear-gradient(to right top,
+      rgb(0, 255, 102),
+      rgb(25, 0, 255));
 }
 
 /* department staff */
@@ -708,11 +719,9 @@
 #footer {
   margin-top: 30px;
   text-align: center;
-  background-image: linear-gradient(
-    to top right,
-    rgb(165, 59, 145),
-    rgb(51, 43, 167)
-  );
+  background-image: linear-gradient(to top right,
+      rgb(165, 59, 145),
+      rgb(51, 43, 167));
   padding: 10px;
   font-size: 20px;
   font-weight: 600;

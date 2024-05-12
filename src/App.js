@@ -39,6 +39,8 @@ import User_dashboard from "./Main Project/UI/USER/User_dashboard";
 import Messages from "./Main Project/UI/USER/Messages";
 import User_settings from "./Main Project/UI/USER/User_settings";
 import User_Apointment from "./Main Project/UI/USER/User_Apointment";
+import Doctor_checkup from "./Main Project/UI/Doctor/Doctor_checkup";
+
 
 function App() {
   return (
@@ -88,6 +90,7 @@ function App() {
         <Route path="/doctor_dashboard" element={<Doctor_dashboard/>}/>
         <Route path="/doctor_dailySheet" element={<Doctor_daily_sheet/>}/>
         <Route path="/doctor_settings" element={<Doctor_Settings/>}/>
+        <Route path="/doctor_checkup" element={<Doctor_checkup/>} />
         </Routes>
 
 

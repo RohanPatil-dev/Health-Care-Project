@@ -42,6 +42,7 @@ export default function Doctor_daily_sheet() {
                       <button className="trash">
                         <img src="./Images/Admin/trash.png" alt="" />
                       </button>
+                      <button className="file ml-3"><img src="./Images/Admin/file.png" alt="" /></button>
                     </td>
                   </tr>
 

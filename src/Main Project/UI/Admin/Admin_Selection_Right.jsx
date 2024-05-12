@@ -15,46 +15,55 @@ export default function Admin_Selection_Right() {
         />
 
         <div id="add_appointment">
-          <div id="directInfo_added">
-            <h2 className="text-primary">
-              <i className="fa fa-bold" aria-hidden="true">
-                Patient's Information
-              </i>
-            </h2>
-            <div>
-              <img
-                src="./Images/doctor1.png"
-                alt=""
-                height="100px"
-                style={{ borderRadius: "30px" }}
-              />
-            </div>
-            <p>
-              Patient's Name : <span>Rohan Patil</span>
-            </p>
-            <p>
-              Patient's Email : <span>rohanpatil51220001@gmail.com</span>
-            </p>
-            <p>
-              Disease Name : <span>Dental</span>
-            </p>
-            <p>
-              Requested Date : <span>2001-12-05</span>
-            </p>
-          </div>
-
-          <div id="form-grid">
-            <div className="select">
-              <select className="custom-select" >
-                <option selected>Select Your Doctor</option>
-                <option value="1">One</option>
-                <option value="2">Two</option>
-                <option value="3">Three</option>
-              </select>
+          <form action="">
+            <div id="directInfo_added">
+              <h2 className="text-primary">
+                <i className="fa fa-bold" aria-hidden="true">
+                  Patient's Information
+                </i>
+              </h2>
+              <div>
+                <img
+                  src="./Images/doctor1.png"
+                  alt=""
+                  height="100px"
+                  style={{ borderRadius: "30px" }}
+                />
+              </div>
+              <p>
+                Patient's Name : <span>Rohan Patil</span>
+              </p>
+              <p>
+                Patient's Email : <span>rohanpatil51220001@gmail.com</span>
+              </p>
+              <p>
+                Disease Name : <span>Dental</span>
+              </p>
+              <p>
+                Requested Date : <span>2001-12-05</span>
+              </p>
             </div>
 
+            <div id="form-grid">
+              <div className="select">
+                <select className="custom-select selected" >
+                  <option selected>Select Your Doctor</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+              </div>
+
+              <div>
+                <input type="datetime-local" name="" id="datetime-local" />
+              </div>
+            </div>
+
             <div>
-              <input type="datetime-local" name="" id="datetime-local" />
+              <div className="form-group textArea">
+                <label htmlFor="exampleFormControlTextarea1">Add message</label>
+                <textarea className="form-control" id="exampleFormControlTextarea1" placeholder="Write something here......."></textarea>
+              </div>
             </div>
 
             <div>
@@ -62,7 +71,7 @@ export default function Admin_Selection_Right() {
                 Submit
               </button>
             </div>
-          </div>
+          </form>
         </div>
 
         <Footer />

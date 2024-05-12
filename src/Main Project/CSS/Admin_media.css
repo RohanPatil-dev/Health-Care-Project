@@ -121,7 +121,7 @@
   }
 
   #directInfo_added div img {
-    margin-left: 35%;
+    margin-left: 33%;
     margin-top: 30px;
   }
 
@@ -147,7 +147,6 @@
 
   .select {
     width: 12.6rem;
-    border: 1px solid gray;
     margin-left: 5rem;
   }
 
@@ -162,6 +161,11 @@
     font-size: 18px;
   }
 
+  #bed{
+    width: 230px;
+    position: relative;
+    bottom: 30px;
+  }
 
   #datetime-local {
     padding: 7px;
@@ -175,11 +179,17 @@
     box-shadow: 0px 0px 10px 5px aqua;
   }
 
+  .textArea {
+    width: 400px;
+    margin-left: 2rem;
+  }
+  
+
   #submit {
-    width: 70%;
+    width: 200px;
     border-radius: 20%;
     border: none;
-    margin-left: 12rem;
+    margin-left: 7.5rem;
     margin-top: 3rem;
     font-size: 20px;
     color: white;
