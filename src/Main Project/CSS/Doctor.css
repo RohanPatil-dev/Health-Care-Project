@@ -62,10 +62,10 @@ body {
   text-shadow: 0px 0px 10px rgb(175, 220, 25);
 }
 
-#name_type {
+#role_type {
   position: absolute;
   top: 16rem;
-  left: 86px;
+  left: 70px;
   font-size: 25px;
   color: rgb(27, 164, 232);
   font-weight: 600;
@@ -368,7 +368,7 @@ body {
 }
 
 /* slider */
-
+/* 
 .menu-bars{
   margin-left: 2rem;
   font-size: 2rem;
@@ -378,10 +378,10 @@ body {
 .nav-menu{
   background-color: #060b26;
   width: 250px;
-  height: 100vh;
+  height: 87%;
   display: flex;
   justify-content: center;
-  position: fixed;
+  position: absolute;
   top: 0;
   left: -100%;
   transition: 850ms;
@@ -433,4 +433,4 @@ body {
 span{
   margin-left: 16px;
 }
-
+ */
