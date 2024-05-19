@@ -148,6 +148,7 @@
   
   #doctor_profile-image input[type=file] {
     margin-top: 30px;
+    margin-left: 20px;
     padding: 5px;
     color: #ff00b7;
     border: 2px solid gray;
@@ -166,5 +167,76 @@
     color: white;
   }
   
+
+  /* doctor check up  */
+
+.doc_container h1{
+  font-weight: 600;
+  font-style: italic;
+  color: red;
+  text-align: center;
+  text-shadow: 5px 2px 5px yellow;
+  margin-top: 30px;
+}
+
+.doc_container{
+ border: 10px double darkmagenta;
+ margin-top: 50px;
+ border-radius: 20px;
+}
+
+.select_doc{
+ width: 400px;
+ position: relative;
+ top: 0px;
+ right: 0px;
+}
+
+#bed{
+ width: 400px;
+ bottom: 30px;
+ padding: 12px;
+}
+
+.doc_checkup{
+ display: grid;
+ grid-template-columns: auto;
+ justify-content: center;
+ margin-top: 50px;
+ margin-left: 90px;
+ gap: 30px 30px;
+ padding: 30px;
+}
+
+.doc_checkup .form-control{
+   margin-right: 70px;
+}
+
+.doc_btn{
+ margin-left: 90px;
+ margin-bottom: 20px;
+ width: 300px;
+ border-radius: 10px;
+ font-size: 20px;
+ font-weight: 600;
+ font-style: oblique;
+}
+
+.doc_checkup div label,#doc_textarea label{
+ font-size: 20px;
+ font-weight: 600;
+ font-style: oblique;
+ color: cornflowerblue;
+}
+
+#doc_textarea{
+ width: 480px;
+ margin-left: 10px;
+}
+
+#doc_textarea textarea{
+ resize: none;
+ height: 200px;
+}
   }
   

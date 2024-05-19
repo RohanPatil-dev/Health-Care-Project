@@ -13,7 +13,7 @@ export default function Doctor_dashboard_left() {
 
             <div id="user_pic">
               <div>
-                <img src="../../Images/doctor1.png" alt="" height="70px" id="user_image" />
+                <img src="./Images/doctor1.png" alt="" height="70px" id="user_image" />
               </div>
               <div>
                 <p id="User_name">Rohan Patil</p>

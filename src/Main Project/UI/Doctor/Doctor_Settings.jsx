@@ -3,11 +3,12 @@ import Doctor_Nav from "./Doctor reusable components/Doctor_Nav"
 import Doctor_dashboard_left from "./Doctor reusable components/Doctor_dashboard_left"
 import Footer from "../Index/Footer"
 
+import "../../CSS/Doctor.css"
+
 export default function Doctor_Settings() {
     return (
         <>
             <Doctor_Nav />
-            <Doctor_dashboard_left />
 
             {/* Change profile image : */}
             <div id="doctor_settings">
@@ -19,7 +20,7 @@ export default function Doctor_Settings() {
                     <img src="./Images/doctor1.png" height="70px"
                         alt="" />
 
-                    <input type="file" name="" id="" style={{ marginLeft: "20px" }} />
+                    <input type="file" name="" id="" />
                 </div>
 
                 <div id="setting-grid">

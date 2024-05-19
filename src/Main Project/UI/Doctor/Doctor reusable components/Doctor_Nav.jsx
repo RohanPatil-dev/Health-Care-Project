@@ -1,6 +1,12 @@
-import React from "react"
+import React,{useState} from "react"
+import Doctors_slider from "./Doctors_slider"
 
 export default function Doctor_Nav() {
+
+  const [sidebar, setSidebar] = useState(false);
+
+  const showSidebar = () => {return setSidebar(!sidebar)}
+
   return (
     <>
       <div>
@@ -16,11 +22,11 @@ export default function Doctor_Nav() {
           </div>
         </div>
 
-        <button type="button" className="btn btn-info" id="pop_up">
+        <button type="button" className="btn btn-info" id="pop_up" onClick={showSidebar}>
           <img src="./Images/Navbar/menu-line.png" alt="" />
         </button>
       </div>
-
+            <Doctors_slider showSidebar={showSidebar} sidebar={sidebar} />
     </>
   )
 }
