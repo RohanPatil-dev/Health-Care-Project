@@ -1,6 +1,14 @@
-import React from "react"
+import React,{useState} from "react"
+import User_slider from "./User_slider";
 
 export default function Users_nav() {
+
+    
+  const [sidebar, setSidebar] = useState(false);
+
+  const showSidebar = () => {return setSidebar(!sidebar)}
+
+
     return (
         <>
             <div>
@@ -16,8 +24,10 @@ export default function Users_nav() {
                     </div>
                 </div>
                 
-                <button type="button" className="btn btn-info" id="pop_up"><img src="../../Images/Navbar/menu-line.png" alt="" /></button>
+                <button type="button" className="btn btn-info" id="pop_up" onClick={showSidebar}><img src="./Images/Navbar/menu-line.png" alt="" /> </button>
             </div>
+
+            <User_slider showSidebar={showSidebar} sidebar={sidebar} />
         </>
     )
 }
