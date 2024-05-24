@@ -1,6 +1,5 @@
 import React from "react"
 import Admin_Nav from "./Admin Reusable components/Admin_Nav"
-import Admin_TitleBar from "./Admin Reusable components/Admin_TitleBar"
 import Admin_footer from "./Admin Reusable components/Admin_footer"
 
 export default function Settings_right() {

@@ -1,7 +1,6 @@
 import React from "react"
 import Department_Modal from "./Department_Modal"
 import Admin_Nav from "./Admin Reusable components/Admin_Nav"
-import Admin_TitleBar from "./Admin Reusable components/Admin_TitleBar"
 import Footer from "../Index/Footer"
 
 import { department } from "../../Data/Department"

@@ -5,12 +5,32 @@
     box-sizing: border-box;
   }
 
+  #pop_up{
+    margin-top: 10px;
+    margin-right: 30px;
+  }
+
+  
+.nav-menu{
+  margin-top: 10px;
+  z-index: 1;
+}
+
   #grid-right {
-    width: 40rem;
+    width: 45rem;
+    height: 50rem;
     position: absolute;
   }
 
 
+  #dashboard_container {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px;
+    gap: 10px 10px;
+    text-align: center;
+    height: 500px;
+  }
 
 
   /* department */
@@ -404,7 +424,7 @@
 
   /* footer */
   #footer {
-    margin-top: 30px;
+    margin-top: 150px;
     width: 100%;
     text-align: center;
     background-image: linear-gradient(to top right,

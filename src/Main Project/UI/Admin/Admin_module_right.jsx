@@ -1,6 +1,5 @@
 import React from "react"
 import Admin_Nav from "./Admin Reusable components/Admin_Nav"
-import Admin_TitleBar from "./Admin Reusable components/Admin_TitleBar"
 import Footer from "../Index/Footer"
 import { modules } from "../../Data/Admin_module"
 import { Link } from "react-router-dom"

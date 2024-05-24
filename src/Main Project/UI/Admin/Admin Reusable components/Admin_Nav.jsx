@@ -11,7 +11,7 @@ export default function Admin_Nav() {
   return (
     <>
 
-<Admin_TitleBar img={"./Images/Navbar/Hospital.png"} title={"Dashboard"} subName={"Dashboard Features"} showSidebar={showSidebar} />
+<Admin_TitleBar img={"./Images/Navbar/Hospital.png"} title={"Dashboard"} subName={"Dashboard F4eatures"} showSidebar={showSidebar} />
 
 
       <Admin_Slider showSidebar={showSidebar} sidebar={sidebar} />
