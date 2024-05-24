@@ -1,7 +1,6 @@
 import React from "react"
 import Footer from "../Index/Footer"
 import Admin_Nav from "./Admin Reusable components/Admin_Nav"
-import Admin_TitleBar from "./Admin Reusable components/Admin_TitleBar"
 
 export default function Admin_Right() {
     return (
@@ -11,8 +10,6 @@ export default function Admin_Right() {
 
                 {/* this code is use for dashboard page  */}
                 <Admin_Nav />
-
-                <Admin_TitleBar img={"./Images/Navbar/Hospital.png"} title={"Dashboard"} subName={"Dashboard Features"} />
 
                 <div id="dashboard_container">
                     <div id="container-grid" className="mt-3">

@@ -94,15 +94,6 @@ export default function Admin_Left(props) {
                         <div>
                             <a href=""
                             ><img
-                                    src="../../Images/Admin/diagnosis.png"
-                                    alt=""
-                                    height="20px"
-                                    className="mb-1"
-                                /><span className="ml-1">Diagnosis Module</span></a>
-                        </div>
-                        <div>
-                            <a href=""
-                            ><img
                                     src="../../Images/Admin/medicine.png"
                                     alt=""
                                     height="20px"

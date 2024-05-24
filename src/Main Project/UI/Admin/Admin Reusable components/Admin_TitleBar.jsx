@@ -13,6 +13,10 @@ export default function Admin_TitleBar(props) {
         <div className="mt-3">
           <p id="dash-title">{props.subName}</p>
         </div>
+        
+        <button type="button" className="btn btn-info" id="pop_up" onClick={props.showSidebar}>
+          <img src="./Images/Navbar/menu-line.png" alt="" />
+        </button>
       </div>
     </>
   );
