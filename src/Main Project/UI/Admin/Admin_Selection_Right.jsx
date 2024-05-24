@@ -9,10 +9,6 @@ export default function Admin_Selection_Right() {
       {/* right nav */}
       <div style={{ border: "2px solid black" }} id="grid-right">
         <Admin_Nav />
-        <Admin_TitleBar
-          title={"Appointments"}
-          subName={"Create Appointments"}
-        />
 
         <div id="add_appointment">
           <form action="">

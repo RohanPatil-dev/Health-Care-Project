@@ -25,12 +25,6 @@ export default function Admin_Right() {
                         <div className="totals">1</div>
                     </div>
                     <div id="container-grid" className="mt-3">
-                        <div><img src="./Images/Admin/first-aid.png" alt="" className="content" />
-                            <p className="names">Total Treatments</p>
-                        </div>
-                        <div className="totals">1</div>
-                    </div>
-                    <div id="container-grid" className="mt-3">
                         <div><img src="./Images/Admin/medicines.png" alt="" className="content" />
                             <p className="names">Total Medicines</p>
                         </div>

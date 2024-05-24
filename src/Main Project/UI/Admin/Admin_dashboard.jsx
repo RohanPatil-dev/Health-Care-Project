@@ -6,7 +6,6 @@ export default function Admin_dashboard() {
   return (
     <>
            <div id="grid-container">
-            <Admin_Left height={"45rem"}/>
             <Admin_Right/>
            </div>
     </>

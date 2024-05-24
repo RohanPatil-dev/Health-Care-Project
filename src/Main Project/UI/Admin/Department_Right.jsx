@@ -15,8 +15,6 @@ export default function Department_Right() {
             <div style={{ border: "2px solid black" }} id="grid-right">
 
                 <Admin_Nav />
-                <Admin_TitleBar title={"Department Module"} subName={"Department list"} />
-
 
                 <div id="staff-container">
                     <button

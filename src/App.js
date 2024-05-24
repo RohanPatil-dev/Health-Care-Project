@@ -46,64 +46,64 @@ import User_visit from "./Main Project/UI/USER/User_visit";
 function App() {
   return (
     <>
-     {/* its healthcare project */}
+      {/* its healthcare project */}
       <BrowserRouter>
-      {/* <Nav /> */}
-       <Routes>
-        <Route path="/" element={<Login />} />
-        <Route path="/signup" element={<Signup/>}/>
+        {/* <Nav /> */}
+        <Routes>
+          <Route path="/" element={<Login />} />
+          <Route path="/signup" element={<Signup />} />
         </Routes>
 
-        
+
         <Routes>
-        <Route path="/index" element={<AddAll/>}/>
-        <Route path="/services" element={<> <Services/> <Contact/> <Footer/> </>}/>
-        <Route path="/about" element={<><About />  <Contact/> <Footer/> </>}/>
-        <Route path="/blogs" element={<> <Blogs /> <Contact/> <Footer/> </>} />
-   
+          <Route path="/index" element={<AddAll />} />
+          <Route path="/services" element={<> <Services /> <Contact /> <Footer /> </>} />
+          <Route path="/about" element={<><About />  <Contact /> <Footer /> </>} />
+          <Route path="/blogs" element={<> <Blogs /> <Contact /> <Footer /> </>} />
 
-        <Route path="/freecheckup" element={<Free_Checkup />}/>
-        <Route path="/ambulance" element={<Ambulance />}/>
-        <Route path="/doctors" element={<Doctors />}/>
-        <Route path="/medicines" element={<Medicine />}/>
-        <Route path="/beds" element={<Beds />}/>
-        <Route path="/totalCare" element={<Total_Care/>}/>
 
-        <Route path="/blog_1" element={<Blog_1 />}/>
-        <Route path="/blog_2" element={<Blog_2 />}/>
-        <Route path="/blog_3" element={<Blog_3 />}/>
+          <Route path="/freecheckup" element={<Free_Checkup />} />
+          <Route path="/ambulance" element={<Ambulance />} />
+          <Route path="/doctors" element={<Doctors />} />
+          <Route path="/medicines" element={<Medicine />} />
+          <Route path="/beds" element={<Beds />} />
+          <Route path="/totalCare" element={<Total_Care />} />
 
-        <Route path="/contact_us" element={<Contact_US />}/>
+          <Route path="/blog_1" element={<Blog_1 />} />
+          <Route path="/blog_2" element={<Blog_2 />} />
+          <Route path="/blog_3" element={<Blog_3 />} />
+
+          <Route path="/contact_us" element={<Contact_US />} />
         </Routes>
 
- {/* admin  */}
+        {/* admin  */}
         <Routes>
-            <Route path="/admin_dashboard" element={<Admin_dashboard/>}/>
-            <Route path="/admin_module" element={<Admin_module/>}/>
-            <Route path="/admin_selection" element={<Appointment_selection/>}/>
-            <Route path="/admin_department" element={<Department_List/>}/>
-            <Route path="/admin_patient_Module" element={<Patient_Module/>}/>
-            <Route path="/admin_settings" element={<Settings/>}/>
+          <Route path="/admin_dashboard" element={<Admin_dashboard />} />
+          <Route path="/admin_module" element={<Admin_module />} />
+          <Route path="/admin_selection" element={<Appointment_selection />} />
+          <Route path="/admin_department" element={<Department_List />} />
+          <Route path="/admin_patient_Module" element={<Patient_Module />} />
+          <Route path="/admin_settings" element={<Settings />} />
         </Routes>
 
-       {/* doctor  */}
+        {/* doctor  */}
         <Routes>
-        <Route path="/doctor_dashboard" element={<Doctor_dashboard/>}/>
-        <Route path="/doctor_dailySheet" element={<Doctor_daily_sheet/>}/>
-        <Route path="/doctor_settings" element={<Doctor_Settings/>}/>
-        <Route path="/doctor_checkup" element={<Doctor_checkup/>} />
+          <Route path="/doctor_dashboard" element={<Doctor_dashboard />} />
+          <Route path="/doctor_dailySheet" element={<Doctor_daily_sheet />} />
+          <Route path="/doctor_settings" element={<Doctor_Settings />} />
+          <Route path="/doctor_checkup" element={<Doctor_checkup />} />
         </Routes>
 
 
         {/* USER */}
-      <Routes>
-          <Route path="/user_dashboard" element={<User_dashboard/>}/>
-          <Route path="/user_messages" element={<Messages/>}/>
-          <Route path="/user_settings" element={<User_settings/>}/>
-          <Route path="/user_appointment" element={<User_Apointment/>}/>
-          <Route path="/User_visits" element={<User_visit/>}/>
-      </Routes>
-    </BrowserRouter>
+        <Routes>
+          <Route path="/user_dashboard" element={<User_dashboard />} />
+          <Route path="/user_messages" element={<Messages />} />
+          <Route path="/user_settings" element={<User_settings />} />
+          <Route path="/user_appointment" element={<User_Apointment />} />
+          <Route path="/User_visits" element={<User_visit />} />
+        </Routes>
+      </BrowserRouter>
 
     </>
   );

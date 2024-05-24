@@ -12,8 +12,6 @@ export default function Settings_right() {
                 {/* this code is use for dashboard page  */}
                 <Admin_Nav />
 
-                <Admin_TitleBar title={"Settings"} />
-
                 {/* Change profile image : */}
                 <div id="user_settings">
 

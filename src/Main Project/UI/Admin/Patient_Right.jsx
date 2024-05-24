@@ -12,7 +12,6 @@ export default function Patient_Right() {
       <div style={{ border: "2px solid black" }} id="grid-right">
 
         <Admin_Nav />
-        <Admin_TitleBar title={"Patient Module"} subName={"Patients list"} />
 
         <div id="table-container">
         <div id="tables" className="text-center">

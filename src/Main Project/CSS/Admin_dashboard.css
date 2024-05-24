@@ -6,6 +6,11 @@
 
 /* for dashboard */
 
+.nav-menu{
+  margin-top: 10px;
+  z-index: 1;
+}
+
 #grid-user {
   position: relative;
   left: 0;
@@ -81,7 +86,7 @@
 }
 
 #grid-right {
-  width: 96rem;
+  width: 94rem;
   position: absolute;
 }
 
@@ -225,7 +230,7 @@
 
 #tables {
   margin-top: 30px;
-  height: 500px;
+  height: 560px;
   overflow: auto;
 }
 
@@ -721,7 +726,7 @@
 
 /* footer */
 #footer {
-  margin-top: 30px;
+  margin-top: 85px;
   text-align: center;
   background-image: linear-gradient(to top right,
       rgb(165, 59, 145),

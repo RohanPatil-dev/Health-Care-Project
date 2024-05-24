@@ -29,8 +29,8 @@ export default function Admin_Slider(props) {
               </div>
             </div>
           </div>
-
         </div>
+        
         <ul className="nav_list">
           <li>
             <Link to="/admin_dashboard"
@@ -73,7 +73,7 @@ export default function Admin_Slider(props) {
           </li>
 
           <li>
-            <Link to="./patient_module.html"
+            <Link to="/admin_patient_Module"
             ><img
                 src="./Images/Admin/user.png"
                 alt=""
@@ -83,34 +83,13 @@ export default function Admin_Slider(props) {
           </li>
 
           <li>
-            <Link to=""
+            <Link to="/admin_module"
             ><img
                 src="./Images/Admin/board.png"
                 alt=""
                 height="20px"
                 className="mb-1"
               /><span className="ml-1">Appointment Module</span></Link>
-          </li>
-
-          <li>
-            <Link to=""
-            ><img
-                src="./Images/Admin/first-aid.png"
-                alt=""
-                height="20px"
-                className="mb-1"
-              /><span className="ml-1">Treatment Module</span></Link>
-          </li>
-
-
-          <li>
-            <Link to=""
-            ><img
-                src="./Images/Admin/diagnosis.png"
-                alt=""
-                height="20px"
-                className="mb-1"
-              /><span className="ml-1">Diagnosis Module</span></Link>
           </li>
 
           <li>
