@@ -7,7 +7,7 @@ export default function Admin_Selection_Right() {
     <>
       {/* right nav */}
       <div style={{ border: "2px solid black" }} id="grid-right">
-        <Admin_Nav />
+      <Admin_Nav img={"./Images/Navbar/green_user.png"} title={"Appointment Module"} subName={"Appointment Selections"}/>
 
         <div id="add_appointment">
           <form action="">

@@ -9,7 +9,7 @@ export default function Settings_right() {
             <div style={{ border: "2px solid black" }} id="grid-right">
 
                 {/* this code is use for dashboard page  */}
-                <Admin_Nav />
+                <Admin_Nav img={"./Images/Navbar/settings.png"} title={"Settings"}/>
 
                 {/* Change profile image : */}
                 <div id="user_settings">

@@ -12,7 +12,8 @@ export default function Admin_module_right() {
             {/* right nav  */}
             <div style={{ border: "2px solid black" }} id="grid-right">
                 {/* this code is use for dashboard page  */}
-                <Admin_Nav />
+                <Admin_Nav img={"./Images/Navbar/green_user.png"} title={"Appointments"} subName={"Appointment Module"} />
+
 
                 <div id="tables" className="text-center">
                     <table className="table bg-dark text-light">

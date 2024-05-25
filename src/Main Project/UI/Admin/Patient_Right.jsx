@@ -10,7 +10,7 @@ export default function Patient_Right() {
       {/* right nav  */}
       <div style={{ border: "2px solid black" }} id="grid-right">
 
-        <Admin_Nav />
+        <Admin_Nav img={"./Images/Navbar/green_user.png"} title={"User Module"} subName={"Users Status"}/>
 
         <div id="table-container">
         <div id="tables" className="text-center">

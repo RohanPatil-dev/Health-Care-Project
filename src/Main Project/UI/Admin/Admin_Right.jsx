@@ -9,7 +9,7 @@ export default function Admin_Right() {
             <div style={{ border: "2px solid black" }} id="grid-right">
 
                 {/* this code is use for dashboard page  */}
-                <Admin_Nav />
+                <Admin_Nav img={"./Images/Navbar/Hospital.png"} title={"Dashboard"} subName={"Dashboard Features"} />
 
                 <div id="dashboard_container">
                     <div id="container-grid" className="mt-3">

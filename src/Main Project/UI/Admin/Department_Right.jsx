@@ -13,7 +13,7 @@ export default function Department_Right() {
             {/* right nav  */}
             <div style={{ border: "2px solid black" }} id="grid-right">
 
-                <Admin_Nav />
+                <Admin_Nav img={"./Images/Navbar/user-group.png"} title={"Department"} subName={"Department Module"} />
 
                 <div id="staff-container">
                     <button
