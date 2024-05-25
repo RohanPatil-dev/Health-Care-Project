@@ -7,9 +7,7 @@ import User_Footer from "./User reusable components/User_Footer"
 export default function Messages() {
     return (
         <>
-            <Users_nav />
-            <Sidebar />
-
+    <Users_nav img={"./Images/User/messages.png"} title={"Users Messages"} subtitle={"All Messages"}/>
 
             {/* messages  */}
             <div id="grid-message">

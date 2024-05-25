@@ -1,7 +1,7 @@
 import React,{useState} from "react"
 import User_slider from "./User_slider";
 
-export default function Users_nav() {
+export default function Users_nav(props) {
 
     
   const [sidebar, setSidebar] = useState(false);
@@ -14,13 +14,13 @@ export default function Users_nav() {
             <div>
                 <div id="patient_titles">
                     <div id="title_image_patient">
-                        <img src="./Images/Navbar/green_user.png" alt="" />
+                        <img src={props.img} alt="" />
                     </div>
                     <div className="text-info">
-                        <p id="dash_title_patient_main">USER Dashboard</p>
+                        <p id="dash_title_patient_main">{props.title}</p>
                     </div>
                     <div className="mt-2">
-                        <p id="dash-title_patient">Dashboard</p>
+                        <p id="dash-title_patient">{props.subtitle}</p>
                     </div>
                 </div>
                 

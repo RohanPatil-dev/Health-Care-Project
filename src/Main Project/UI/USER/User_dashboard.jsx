@@ -6,8 +6,7 @@ import User_Footer from "./User reusable components/User_Footer";
 export default function User_dashboard() {
     return (
         <>
-            <Users_nav />
-            <Sidebar />
+            <Users_nav img={"./Images/Navbar/green_user.png"} title={"Users Dashboard"} subtitle={"Dashboard"}/>
 
             <div id="user_dashboard">
                 <div id="container-grid" className="mt-3">

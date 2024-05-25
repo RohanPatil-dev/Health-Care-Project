@@ -7,7 +7,7 @@ import Footer from "../Index/Footer"
 export default function User_visit() {
     return (
         <>
-            <Users_nav />
+    <Users_nav img={"./Images/User/diary.png"} title={"Users Visit"} subtitle={"Visit Data"}/>
 
             <div className="container mt-5  visit_table">
                 <table className="table bg-dark text-light text-center">

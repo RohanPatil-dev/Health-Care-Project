@@ -6,8 +6,7 @@ import User_Footer from "./User reusable components/User_Footer";
 export default function User_Apointment() {
     return (
         <>
-            <Users_nav />
-            <Sidebar />
+   <Users_nav img={"./Images/Navbar/green-clipboard.png"} title={"Users Appointment"} subtitle={"Appointments"}/>
 
 
             {/* apply for appointment */}

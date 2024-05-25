@@ -6,8 +6,7 @@ import Sidebar from "./User reusable components/Sidebar"
 export default function User_settings() {
     return (
         <>
-            <Users_nav />
-            <Sidebar />
+    <Users_nav img={"./Images/Navbar/settings.png"} title={"Users Settings"} subtitle={"settings"}/>
 
             {/* Change profile image : */}
             <div id="user_settings">

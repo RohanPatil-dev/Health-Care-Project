@@ -47,7 +47,7 @@ export default function User_slider(props) {
 
                         <li>
                             <Link to="/User_visits">
-                                <img src="./Images/Admin/settings.png" alt="" class="icons" />
+                                <img src="./Images/User/visits.png" alt="" class="icons" />
                                 <span class="links_name">Total Visits</span>
                             </Link>
                         </li>
