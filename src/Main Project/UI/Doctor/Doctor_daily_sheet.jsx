@@ -4,12 +4,14 @@ import Doctor_dashboard_left from "./Doctor reusable components/Doctor_dashboard
 import Footer from "../Index/Footer"
 
 import { sheets } from "../../Data/Daily sheet"
+import { Link } from "react-router-dom"
 
 export default function Doctor_daily_sheet() {
   return (
     <>
-      <Doctor_Nav />
-      <Doctor_dashboard_left />
+
+<Doctor_Nav img={"./Images/Navbar/green-clipboard.png"} title={"Doctor DailySheet"} subtitle={"Records"}/>
+
 
 
       {/* sheet  */}
@@ -42,7 +44,9 @@ export default function Doctor_daily_sheet() {
                       <button className="trash">
                         <img src="./Images/Admin/trash.png" alt="" />
                       </button>
+                      <Link to="/doctor_checkup">
                       <button className="file ml-3"><img src="./Images/Admin/file.png" alt="" /></button>
+                      </Link>
                     </td>
                   </tr>
 

@@ -9,8 +9,7 @@ export default function Doctor_dashboard() {
     return (
         <>
 
-<Doctor_Nav/>
-<Doctor_dashboard_left/>
+<Doctor_Nav img={"./Images/Navbar/doctor.png"} title={"Doctor Dashboard"} subtitle={"Dashboard"}/>
 
   <div id="doctor_dashboard">
     <div id="container-grid" className="mt-3">

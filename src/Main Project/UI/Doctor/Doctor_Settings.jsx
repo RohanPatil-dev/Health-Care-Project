@@ -8,7 +8,9 @@ import "../../CSS/Doctor.css"
 export default function Doctor_Settings() {
     return (
         <>
-            <Doctor_Nav />
+    
+    <Doctor_Nav img={"./Images/Navbar/settings.png"} title={"Settings"}/>
+ 
 
             {/* Change profile image : */}
             <div id="doctor_settings">
