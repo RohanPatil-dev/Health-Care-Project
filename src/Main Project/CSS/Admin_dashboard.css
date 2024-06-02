@@ -735,3 +735,41 @@
   font-size: 20px;
   font-weight: 600;
 }
+
+
+/* admin blog */
+
+#admin_blog{
+  background-color: rgb(19, 205, 19);
+  padding: 30px;
+  height: 600px;
+}
+
+#blog-heading{
+  text-align: center;
+  color: #ff0000;
+  font-style: oblique;
+  font-size: 70px;
+  text-shadow: 7px 5px 0px rgb(22, 106, 148);
+}
+
+
+#editor{
+   margin-right: 50px;
+   height: 300px;
+   overflow: auto;
+}
+
+.blog_inputs{
+  display: grid;
+  grid-template-columns: auto auto;
+   justify-content: space-around;
+}
+
+#blog-form{
+   margin-top: 30px;
+}
+
+#editor::-webkit-scrollbar{
+   height: 100px;
+}

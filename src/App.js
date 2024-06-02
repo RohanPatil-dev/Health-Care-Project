@@ -41,6 +41,7 @@ import User_settings from "./Main Project/UI/USER/User_settings";
 import User_Apointment from "./Main Project/UI/USER/User_Apointment";
 import Doctor_checkup from "./Main Project/UI/Doctor/Doctor_checkup";
 import User_visit from "./Main Project/UI/USER/User_visit";
+import Admin_blog from "./Main Project/UI/Admin/Admin_blog";
 
 
 function App() {
@@ -84,6 +85,7 @@ function App() {
           <Route path="/admin_department" element={<Department_List />} />
           <Route path="/admin_patient_Module" element={<Patient_Module />} />
           <Route path="/admin_settings" element={<Settings />} />
+          <Route path="/admin_blogs" element={<Admin_blog />} />
         </Routes>
 
         {/* doctor  */}
